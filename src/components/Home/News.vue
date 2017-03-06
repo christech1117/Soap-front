@@ -3,9 +3,9 @@
   <div class="work-container">
     <div class="container">
       <div class="row">
-          <div class="col-sm-12 work-title wow fadeIn">
+          <!-- <div class="col-sm-12 work-title wow fadeIn">
               <h2>Our Latest Work</h2>
-          </div>
+          </div> -->
         </div>
         <div class="row">
           <div class="col-sm-3">

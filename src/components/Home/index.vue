@@ -1,9 +1,10 @@
 <template>
   <div class="Home">
     <Slider></Slider>
-    <Hot-product></Hot-product>
-    <br>
     <News></News>
+    <News></News>
+    <News></News>
+    <Hot-product></Hot-product>
   </div>
 </template>
 
