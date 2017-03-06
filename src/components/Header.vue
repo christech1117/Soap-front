@@ -35,7 +35,7 @@
               <a href="about.html"><i class="fa fa-user"></i><br>關於我們</a>
             </li>
             <li>
-              <router-link :to="{ name: 'Product' }"><i class="fa fa-envelope"></i><br>聯絡我們</router-link>
+              <router-link :to="{ name: 'Contact' }"><i class="fa fa-envelope"></i><br>聯絡我們</router-link>
               <!-- <a href="contact.html"><i class="fa fa-envelope"></i><br>聯絡我們</a> -->
             </li>
             <li>

@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from 'components/Home'
 import Cart from 'components/Cart'
 import Product from 'components/Product'
+import Contact from 'components/Contact'
 
 Vue.use(Router)
 
@@ -12,6 +13,7 @@ export default new Router({
   routes: [
     { path: '/', name: 'Home', component: Home },
     { path: '/cart', name: 'Cart', component: Cart },
-    { path: '/product', name: 'Product', component: Product }
+    { path: '/product', name: 'Product', component: Product },
+    { path: '/contact', name: 'Contact', component: Contact }
   ]
 })
