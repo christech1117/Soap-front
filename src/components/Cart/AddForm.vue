@@ -31,7 +31,7 @@ export default {
   }
 }
 </script>
-<style lang="css">
+<style scoped>
   form {
     padding-top: 120px;
   }
