@@ -9,10 +9,10 @@
 
                 <div class="text-center">
                     <ul class="portfolio-filter">
-                        <li><a class="active" href="#" data-filter="*">All Works</a></li>
-                        <li><a href="#" data-filter=".creative">Creative</a></li>
-                        <li><a href="#" data-filter=".corporate">Corporate</a></li>
-                        <li><a href="#" data-filter=".portfolio">Portfolio</a></li>
+                        <li><a class="active" href="#" data-filter="*">全部商品</a></li>
+                        <li><a href="#" data-filter=".creative">身活系列</a></li>
+                        <li><a href="#" data-filter=".corporate">基礎系列</a></li>
+                        <li><a href="#" data-filter=".portfolio">活動商品</a></li>
                     </ul><!--/#portfolio-filter-->
                 </div>
 
