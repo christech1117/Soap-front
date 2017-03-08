@@ -5,7 +5,7 @@
       <div class="container">
           <div class="row">
               <div class="col-sm-6 contact-form wow fadeInLeft">
-                  <form role="form" action="assets/sendmail.php" method="post">
+                  <form role="form" action="" method="">
                     <div class="form-group">
                       <label for="contact-name">姓名</label>
                         <input type="text" name="name" placeholder="Enter your name..." class="contact-name" id="contact-name">
@@ -22,7 +22,7 @@
                         <label for="contact-message">內容</label>
                         <textarea name="message" placeholder="Your message..." class="contact-message" id="contact-message"></textarea>
                       </div>
-                      <button type="submit" class="btn">Send</button>
+                      <button type="submit" class="btn">送出</button>
                   </form>
               </div>
               <div class="col-sm-5 contact-address wow fadeInUp">

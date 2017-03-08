@@ -1,15 +1,27 @@
 <template>
-<div>
-  <form>
-    商品名稱：<input class="form-control" type="text" v-model="addForm.product" /><br />
-    商品價格：<input class="form-control" type="number" v-model="addForm.price" /><br />
-    購買數量：<input class="form-control" type="number" v-model="addForm.qty" /><br />
-
-    <p>
-      您購買了 {{ addForm.product }}，單價 ${{ addForm.price }} 元，共 {{ addForm.qty }} 件 小計 NTD ${{ addForm.price * addForm.qty }} 元
-    </p>
-    <button type="button" class="btn btn-default" @click.prevent="add">加入購物車</button><br /><br />
-  </form>
+<div class="contact-us-container">
+  <div class="row">
+      <div class="col-sm-6 contact-form wow fadeInLeft">
+        <form role="form" action="" method="post">
+          <div class="form-group">
+            <label for="contact-name">商品名稱：</label>
+            <input class="form-control" type="text" v-model="addForm.product" /><br />
+          </div>
+          <div class="form-group">
+            <label for="contact-name">商品價格：</label>
+            <input class="form-control" type="number" v-model="addForm.price" /><br />
+          </div>
+          <div class="form-group">
+            <label for="contact-name">購買數量：</label>
+            <input class="form-control" type="number" v-model="addForm.qty" /><br />
+          </div>
+          <p>
+            您購買了 {{ addForm.product }}，單價 ${{ addForm.price }} 元，共 {{ addForm.qty }} 件 小計 NTD ${{ addForm.price * addForm.qty }} 元
+          </p>
+          <button type="button" class="btn btn-default" @click.prevent="add">加入購物車</button><br /><br />
+        </form>
+      </div>
+  </div>
 </div>
 </template>
 
@@ -32,7 +44,5 @@ export default {
 }
 </script>
 <style scoped>
-  form {
-    padding-top: 20px;
-  }
+
 </style>

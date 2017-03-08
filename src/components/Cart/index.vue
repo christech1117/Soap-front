@@ -12,8 +12,10 @@
           </div>
       </div>
   </div>
-  <Add-form @add="add"></Add-form>
-  <Cart :cart-list="cartList" :sum="sum"></Cart>
+  <div class="container">
+    <Add-form @add="add"></Add-form>
+    <Cart :cart-list="cartList" :sum="sum"></Cart>
+</div>
 </div>
 </template>
 
