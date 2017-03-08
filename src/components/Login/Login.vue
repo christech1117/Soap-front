@@ -13,8 +13,8 @@
                         <input type="text" name="name" placeholder="Enter your account..." class="contact-name" id="contact-name">
                       </div>
                       <div class="form-group">
-                        <label for="contact-email">密碼</label>
-                        <input type="password" name="email" placeholder="Enter your password..." class="contact-email" id="contact-email">
+                        <label for="contact-password">密碼</label>
+                        <input type="password" name="password" placeholder="Enter your password..." class="contact-password" id="contact-password">
                       </div>
                         <button type="submit" class="btn">登入</button>
                         <button type="submit" class="btn">忘記密碼</button>
