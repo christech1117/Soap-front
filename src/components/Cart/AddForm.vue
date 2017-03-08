@@ -33,6 +33,6 @@ export default {
 </script>
 <style scoped>
   form {
-    padding-top: 120px;
+    padding-top: 20px;
   }
 </style>
