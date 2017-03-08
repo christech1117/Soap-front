@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 wow fadeIn">
-                    <i class="fa fa-envelope"></i>
+                    <i class="fa fa-newspaper-o"></i>
                     <h1>Home / News</h1>
                     <p></p>
                 </div>

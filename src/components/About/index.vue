@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 wow fadeIn">
-                    <i class="fa fa-shopping-cart"></i>
+                    <i class="fa fa-user"></i>
                     <h1>Home / About</h1>
                     <!-- <p>Here is how you can contact us</p> -->
                 </div>
