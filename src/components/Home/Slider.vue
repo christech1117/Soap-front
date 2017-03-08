@@ -48,4 +48,8 @@ export default {
 </script>
 
 <style scoped>
+
+.slider-container {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
 </style>

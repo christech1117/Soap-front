@@ -116,4 +116,9 @@ export default {
 </script>
 
 <style scoped>
+
+#portfolio {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
 </style>
