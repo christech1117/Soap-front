@@ -1,5 +1,6 @@
 <template>
   <div id="works"  class=" clearfix grid">
+    <div class="container">
     <figure class="effect-oscar  wowload fadeIn">
         <img src="static/images/portfolio/1.jpg" alt="img01"/>
         <figcaption>
@@ -48,6 +49,7 @@
             <a href="static/images/portfolio/6.jpg" title="1" data-gallery>View more</a></p>
         </figcaption>
     </figure>
+    </div>
   </div>
 </template>
 
@@ -64,6 +66,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+figcaption h2 {
+  background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+}
+
 .grid {
 	position: relative;
 	margin: 0 auto;
