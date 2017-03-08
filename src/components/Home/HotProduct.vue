@@ -19,89 +19,113 @@
                 <div class="portfolio-items">
                     <div class="portfolio-item creative">
                         <div class="portfolio-item-inner">
+                          <a href="" rel="prettyPhoto">
                             <img class="img-responsive" src="https://www.teasoap.com.tw/downloads/image/cost/wed001.jpg" alt="">
                             <div class="portfolio-info">
-                                <h3>Portfolio Item 1</h3>
-                                Lorem Ipsum Dolor Sit
-                                <a class="preview" href="static/images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                <h3>綠茶皂</h3>
+                                <i class="fa fa-usd" aria-hidden="true">3000</i>
+                                <i class="fa fa-heart-o" aria-hidden="true">246</i>
+                                <i class="preview fa fa-eye"></i>
                             </div>
+                          </a>
                         </div>
                     </div><!--/.portfolio-item-->
 
                     <div class="portfolio-item corporate portfolio">
                         <div class="portfolio-item-inner">
+                          <a href="" rel="prettyPhoto">
                             <img class="img-responsive" src="https://www.teasoap.com.tw/downloads/image/cost/wed002.jpg" alt="">
                             <div class="portfolio-info">
-                                <h3>Portfolio Item 2</h3>
-                                Lorem Ipsum Dolor Sit
-                                <a class="preview" href="static/images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                <h3>茶樹皂</h3>
+                                <i class="fa fa-usd" aria-hidden="true">3000</i>
+                                <i class="fa fa-heart-o" aria-hidden="true">246</i>
+                                <i class="preview fa fa-eye"></i>
                             </div>
+                          </a>
                         </div>
                     </div><!--/.portfolio-item-->
 
                     <div class="portfolio-item creative">
                         <div class="portfolio-item-inner">
+                          <a href="" rel="prettyPhoto">
                             <img class="img-responsive" src="https://www.teasoap.com.tw/downloads/image/cost/wed004.jpg" alt="">
                             <div class="portfolio-info">
-                                <h3>Portfolio Item 3</h3>
-                                Lorem Ipsum Dolor Sit
-                                <a class="preview" href="static/images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                <h3>高山皂</h3>
+                                <i class="fa fa-usd" aria-hidden="true">3000</i>
+                                <i class="fa fa-heart-o" aria-hidden="true">246</i>
+                                <i class="preview fa fa-eye"></i>
                             </div>
+                          </a>
                         </div>
                     </div><!--/.portfolio-item-->
 
                     <div class="portfolio-item corporate">
                         <div class="portfolio-item-inner">
+                          <a href="" rel="prettyPhoto">
                             <img class="img-responsive" src="https://www.teasoap.com.tw/downloads/image/cost/wed003.jpg" alt="">
                             <div class="portfolio-info">
-                                <h3>Portfolio Item 4</h3>
-                                Lorem Ipsum Dolor Sit
-                                <a class="preview" href="static/images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                <h3>茉草皂</h3>
+                                <i class="fa fa-usd" aria-hidden="true">3000</i>
+                                <i class="fa fa-heart-o" aria-hidden="true">246</i>
+                                <i class="preview fa fa-eye"></i>
                             </div>
+                          </a>
                         </div>
                     </div><!--/.portfolio-item-->
 
                     <div class="portfolio-item creative portfolio">
                         <div class="portfolio-item-inner">
+                          <a href="" rel="prettyPhoto">
                             <img class="img-responsive" src="https://www.teasoap.com.tw/downloads/image/cost/wed004.jpg" alt="">
                             <div class="portfolio-info">
-                                <h3>Portfolio Item 5</h3>
-                                Lorem Ipsum Dolor Sit
-                                <a class="preview" href="static/images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                <h3>蘭花皂</h3>
+                                <i class="fa fa-usd" aria-hidden="true">3000</i>
+                                <i class="fa fa-heart-o" aria-hidden="true">246</i>
+                                <i class="preview fa fa-eye"></i>
                             </div>
+                          </a>
                         </div>
                     </div><!--/.portfolio-item-->
 
                     <div class="portfolio-item corporate">
                         <div class="portfolio-item-inner">
+                          <a href="" rel="prettyPhoto">
                             <img class="img-responsive" src="https://www.teasoap.com.tw/downloads/image/cost/wed003.jpg" alt="">
                             <div class="portfolio-info">
-                                <h3>Portfolio Item 5</h3>
-                                Lorem Ipsum Dolor Sit
-                                <a class="preview" href="static/images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                <h3>御用皂</h3>
+                                <i class="fa fa-usd" aria-hidden="true">3000</i>
+                                <i class="fa fa-heart-o" aria-hidden="true">246</i>
+                                <i class="preview fa fa-eye"></i>
                             </div>
+                          </a>
                         </div>
                     </div><!--/.portfolio-item-->
 
                     <div class="portfolio-item creative portfolio">
                         <div class="portfolio-item-inner">
+                          <a href="" rel="prettyPhoto">
                             <img class="img-responsive" src="https://www.teasoap.com.tw/downloads/image/cost/wed001.jpg" alt="">
                             <div class="portfolio-info">
-                                <h3>Portfolio Item 7</h3>
-                                Lorem Ipsum Dolor Sit
-                                <a class="preview" href="static/images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                <h3>薰衣草皂</h3>
+                                <i class="fa fa-usd" aria-hidden="true">3000</i>
+                                <i class="fa fa-heart-o" aria-hidden="true">246</i>
+                                <i class="preview fa fa-eye"></i>
                             </div>
+                          </a>
                         </div>
                     </div><!--/.portfolio-item-->
 
                     <div class="portfolio-item corporate">
                         <div class="portfolio-item-inner">
+                          <a href="" rel="prettyPhoto">
                             <img class="img-responsive" src="https://www.teasoap.com.tw/downloads/image/cost/wed002.jpg" alt="">
                             <div class="portfolio-info">
-                                <h3>Portfolio Item 8</h3>
-                                Lorem Ipsum Dolor Sit
-                                <a class="preview" href="static/images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                <h3>五葉松皂</h3>
+                                <i class="fa fa-usd" aria-hidden="true">3000</i>
+                                <i class="fa fa-heart-o" aria-hidden="true">246</i>
+                                </i>
                             </div>
+                          </a>
                         </div>
                     </div><!--/.portfolio-item-->
                 </div>
@@ -119,6 +143,9 @@ export default {
 
 #portfolio {
   background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+i {
+  font-size: 16px;
 }
 
 </style>
