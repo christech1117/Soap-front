@@ -42,7 +42,7 @@
               <a href="http://localhost:8080/contact"><i class="fa fa-envelope"></i><br>聯絡我們</a>
             </li>
             <li>
-              <a href="http://localhost:8080/"><i class="fa fa-sign-in"></i><br>會員登入</a>
+              <a href="http://localhost:8080/login"><i class="fa fa-sign-in"></i><br>會員登入</a>
             </li>
             <li>
               <a href="http://localhost:8080/cart"><i class="fa fa-shopping-cart"></i><br>購物車</a>
