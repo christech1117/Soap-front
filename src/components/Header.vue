@@ -25,15 +25,8 @@
             <li>
               <a href="http://localhost:8080/product"><i class="fa fa-tasks"></i><br>商品介紹</a>
             </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000">
-                <i class="fa fa-paperclip"></i><br>購物須知 <span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="http://localhost:8080/">如何購買</a></li>
-                <li><a href="http://localhost:8080/">付款方式</a></li>
-                <li><a href="http://localhost:8080/">如何退貨</a></li>
-              </ul>
+            <li>
+              <a href="http://localhost:8080/rule"><i class="fa fa-question-circle"></i><br>購物須知</a>
             </li>
             <li>
               <a href="http://localhost:8080/about"><i class="fa fa-user"></i><br>關於我們</a>
