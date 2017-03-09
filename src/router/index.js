@@ -8,6 +8,7 @@ import About from 'components/About'
 import News from 'components/News'
 import Login from 'components/Login'
 import Forget from 'components/Forget'
+import Register from 'components/Register'
 
 Vue.use(Router)
 
@@ -22,6 +23,7 @@ export default new Router({
     { path: '/about', name: 'About', component: About },
     { path: '/news', name: 'News', component: News },
     { path: '/login', name: 'Login', component: Login },
-    { path: '/forget', name: 'Forget', component: Forget }
+    { path: '/forget', name: 'Forget', component: Forget },
+    { path: '/register', name: 'Register', component: Register }
   ]
 })

@@ -8,7 +8,7 @@
                   <form role="form" action="" method="">
                     <div class="form-group">
                       <label for="contact-email">信箱：</label>
-                        <input type="text" name="email" placeholder="Enter your email..." class="contact-email" id="contact-email">
+                      <input type="text" name="email" placeholder="Enter your email..." class="contact-email" id="contact-email">
                     </div>
                       <button type="button" class="btn" onclick="self.location.href='http://localhost:8080/login'">送出</button>
                   </form>

@@ -16,7 +16,7 @@
                     </div>
                       <button type="submit" class="btn">登入</button>
                       <button type="button" class="btn" onclick="self.location.href='http://localhost:8080/forget'">忘記密碼</button>
-                      <button type="submit" class="btn">註冊</button>
+                      <button type="button" class="btn" onclick="self.location.href='http://localhost:8080/register'">註冊</button>
                   </form>
               </div>
           </div>

@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 wow fadeIn">
-                    <i class="fa fa-sign-in"></i>
+                    <i class="fa fa-user"></i>
                     <h1>Home / Forget</h1>
                     <!-- <p>Here is how you can contact us</p> -->
                 </div>
