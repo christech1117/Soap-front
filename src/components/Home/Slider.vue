@@ -4,7 +4,7 @@
       <div class="container">
           <div class="row">
               <div class="col-sm-10 col-sm-offset-1 slider">
-                  <div class="flexslider">
+                  <div class="flexslider wow fadeInDown">
                       <ul class="slides">
                           <li data-thumb="https://www.teasoap.com.tw/downloads/banner/pic/20170221132914.jpg">
                               <img src="https://www.teasoap.com.tw/downloads/banner/pic/20170221132914.jpg">
