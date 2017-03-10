@@ -37,9 +37,9 @@
             <li>
               <a href="http://localhost:8080/login"><i class="fa fa-sign-in"></i><br>會員登入</a>
             </li>
-            <li>
+            <!-- <li>
               <a href="http://localhost:8080/cart"><i class="fa fa-shopping-cart"></i><br>購物車</a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
