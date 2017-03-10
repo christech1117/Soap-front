@@ -3,13 +3,14 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-7 footer-copyright wow fadeIn">
-              <p>Copyright 2017 Chris - All Rights Reserved.</a></p>
+              <p>Copyright 2017 Chris - All Rights Reserved.</p>
         </div>
         <div class="col-sm-5 footer-social wow fadeIn">
               <a href="#"><i class="fa fa-facebook"></i></a>
               <a href="#"><i class="fa fa-dribbble"></i></a>
               <a href="#"><i class="fa fa-twitter"></i></a>
               <a href="#"><i class="fa fa-pinterest"></i></a>
+              <span><a href="http://localhost:8080/otherRule">其他說明與條款</a></span>
         </div>
       </div>
     </div>
@@ -25,6 +26,9 @@ export default {
 .panel-footer {
   background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
  background-blend-mode: multiply;
+}
+div span a {
+  font-size: 14px;
 }
 
 
