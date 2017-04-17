@@ -23,7 +23,7 @@
               <a href="http://localhost:8080/news"><i class="fa fa-newspaper-o"></i><br>最新消息</a>
             </li>
             <li>
-              <a href="http://localhost:8080/product"><i class="fa fa-tasks"></i><br>商品介紹</a>
+              <a href="http://localhost:8080/productMenu"><i class="fa fa-tasks"></i><br>商品介紹</a>
             </li>
             <li>
               <a href="http://localhost:8080/rule"><i class="fa fa-question-circle"></i><br>購物須知</a>

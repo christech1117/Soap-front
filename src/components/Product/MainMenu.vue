@@ -1,54 +1,66 @@
 <template>
   <div id="works"  class=" clearfix grid">
     <div class="container">
-    <figure class="effect-oscar wow fadeInDown">
-        <img src="static/images/portfolio/1.jpg" alt="img01"/>
-        <figcaption>
-            <h2>各種膚質</h2>
-            <p>Lily likes to play with crayons and pencils<br>
-            <a href="static/images/portfolio/1.jpg" title="1" data-gallery>View more</a></p>
-        </figcaption>
-    </figure>
-     <figure class="effect-oscar wow fadeInDown">
-        <img src="static/images/portfolio/2.jpg" alt="img01"/>
-        <figcaption>
-            <h2>中油性肌膚</h2>
-            <p>Lily likes to play with crayons and pencils<br>
-            <a href="static/images/portfolio/2.jpg" title="1" data-gallery>View more</a></p>
-        </figcaption>
-    </figure>
-     <figure class="effect-oscar wow fadeInDown">
-        <img src="static/images/portfolio/3.jpg" alt="img01"/>
-        <figcaption>
-            <h2>混合性肌膚</h2>
-            <p>Lily likes to play with crayons and pencils<br>
-            <a href="static/images/portfolio/3.jpg" title="1" data-gallery>View more</a></p>
-        </figcaption>
-    </figure>
-     <figure class="effect-oscar wow fadeInUp">
-        <img src="static/images/portfolio/4.jpg" alt="img01"/>
-        <figcaption>
-            <h2>乾性肌膚</h2>
-            <p>Lily likes to play with crayons and pencils<br>
-            <a href="static/images/portfolio/4.jpg" title="1" data-gallery>View more</a></p>
-        </figcaption>
-    </figure>
-     <figure class="effect-oscar wow fadeInUp">
-        <img src="static/images/portfolio/5.jpg" alt="img01"/>
-        <figcaption>
-            <h2>嬰兒肌膚</h2>
-            <p>Lily likes to play with crayons and pencils<br>
-            <a href="static/images/portfolio/5.jpg" title="1" data-gallery>View more</a></p>
-        </figcaption>
-    </figure>
-    <figure class="effect-oscar wow fadeInUp">
-        <img src="static/images/portfolio/6.jpg" alt="img01"/>
-        <figcaption>
-            <h2>敏感性肌膚</h2>
-            <p>Lily likes to play with crayons and pencils<br>
-            <a href="static/images/portfolio/6.jpg" title="1" data-gallery>View more</a></p>
-        </figcaption>
-    </figure>
+      <a href="http://localhost:8080/productMenu/List">
+        <figure class="effect-oscar wow fadeInDown">
+          <img src="static/images/portfolio/1.jpg" alt="img01"/>
+          <figcaption>
+              <h2>各種膚質</h2>
+              <p>各種膚質<br><br>
+              more..</p>
+          </figcaption>
+        </figure>
+      </a>
+      <a href="http://localhost:8080/productMenu/List">
+        <figure class="effect-oscar wow fadeInDown">
+          <img src="static/images/portfolio/2.jpg" alt="img01"/>
+          <figcaption>
+              <h2>中油性肌膚</h2>
+              <p>中油性肌膚<br><br>
+              more..</p>
+          </figcaption>
+        </figure>
+      </a>
+      <a href="http://localhost:8080/productMenu/List">
+        <figure class="effect-oscar wow fadeInDown">
+          <img src="static/images/portfolio/3.jpg" alt="img01"/>
+          <figcaption>
+              <h2>混合性肌膚</h2>
+              <p>混合性肌膚<br><br>
+              more..</p>
+          </figcaption>
+        </figure>
+      </a>
+      <a href="http://localhost:8080/productMenu/List">
+        <figure class="effect-oscar wow fadeInUp">
+          <img src="static/images/portfolio/4.jpg" alt="img01"/>
+          <figcaption>
+              <h2>乾性肌膚</h2>
+              <p>乾性肌膚<br><br>
+              more..</p>
+          </figcaption>
+        </figure>
+      </a>
+      <a href="http://localhost:8080/productMenu/List">
+        <figure class="effect-oscar wow fadeInUp">
+          <img src="static/images/portfolio/5.jpg" alt="img01"/>
+          <figcaption>
+              <h2>嬰兒肌膚</h2>
+              <p>嬰兒肌膚<br><br>
+              more..</p>
+          </figcaption>
+        </figure>
+      </a>
+      <a href="http://localhost:8080/productMenu/List">
+        <figure class="effect-oscar wow fadeInUp">
+          <img src="static/images/portfolio/6.jpg" alt="img01"/>
+          <figcaption>
+              <h2>敏感性肌膚</h2>
+              <p>敏感性肌膚<br><br>
+              more..</p>
+          </figcaption>
+        </figure>
+      </a>
     </div>
   </div>
 </template>
