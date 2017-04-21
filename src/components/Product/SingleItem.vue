@@ -1,6 +1,17 @@
 <template lang="html">
   <div class="ProductList">
-    <div class="container"
+  <div class="page-title-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 wow fadeIn">
+                    <i class="fa fa-tasks"></i>
+                    <h1>Home / Product / SingleItem</h1>
+                    <!-- <p>Here is how you can contact us</p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
 		<div class="card">
 			<div class="container-fliud">
 				<div class="wrapper row">
@@ -47,7 +58,7 @@
               <button class="btn" type="button"><span class="fa fa-heart"></span></button>
             </div>
 
-            <table border="0" width="600">
+            <table border="0" width="500" style="margin-top:20px;">
             	<tbody>
             		<tr>
             			<td colspan="3" height="30">
@@ -156,7 +167,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	  </div>
   </div>
 </template>
 
