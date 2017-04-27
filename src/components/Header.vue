@@ -11,35 +11,29 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://localhost:8080/">Andia - a super cool design agency...</a>
+          <a class="navbar-brand" href="http://localhost:8080/">Brand</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="top-navbar-1">
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a href="http://localhost:8080/"><i class="fa fa-home"></i><br>首頁</a>
+              <a href="http://localhost:8080/news">最新消息</a>
             </li>
             <li>
-              <a href="http://localhost:8080/news"><i class="fa fa-newspaper-o"></i><br>最新消息</a>
+              <a href="http://localhost:8080/productMenu">商品介紹</a>
             </li>
             <li>
-              <a href="http://localhost:8080/productMenu"><i class="fa fa-tasks"></i><br>商品介紹</a>
+              <a href="http://localhost:8080/rule">購物須知</a>
             </li>
             <li>
-              <a href="http://localhost:8080/rule"><i class="fa fa-question-circle"></i><br>購物須知</a>
+              <a href="http://localhost:8080/about">關於我們</a>
             </li>
             <li>
-              <a href="http://localhost:8080/about"><i class="fa fa-user"></i><br>關於我們</a>
+              <a href="http://localhost:8080/contact">聯絡我們</a>
             </li>
             <li>
-              <a href="http://localhost:8080/contact"><i class="fa fa-envelope"></i><br>聯絡我們</a>
+              <a href="http://localhost:8080/login">會員登入</a>
             </li>
-            <li>
-              <a href="http://localhost:8080/login"><i class="fa fa-sign-in"></i><br>會員登入</a>
-            </li>
-            <!-- <li>
-              <a href="http://localhost:8080/cart"><i class="fa fa-shopping-cart"></i><br>購物車</a>
-            </li> -->
           </ul>
         </div>
       </div>
@@ -53,4 +47,9 @@ export default {
 </script>
 
 <style scoped>
+
+
+
+
+
 </style>

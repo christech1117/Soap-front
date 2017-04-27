@@ -1,22 +1,10 @@
 <template lang="html">
   <div class="HotProduct">
-    <div class="page-title-container">
-          <div class="container">
-              <div class="row">
-                  <div class="col-sm-12 wow fadeIn">
-                      <i class="fa fa-tasks"></i>
-                      <h1>Home / Product / List</h1>
-                      <!-- <p>Here is how you can contact us</p> -->
-                  </div>
-              </div>
-          </div>
-      </div>
     <section id="portfolio">
-      <div class="container">
-        <div class="col-sm-3">
-        
-          <div class="row">
-		        <div id="left" class="span3">
+            <div class="container">
+              <div class="col-sm-3">
+                <div class="row">
+		<div id="left" class="span3">
             <ul id="menu-group-1" class="nav menu">
                 <li class="item-1 deeper parent active">
                     <a class="" href="http://localhost:8080/productMenu">
@@ -114,8 +102,8 @@
                     </ul>
                 </li>
             </ul>
-        </div>
-      </div>
+		</div>
+	</div>
 	            </div>
                 <div class="portfolio-items">
                     <div class="portfolio-item creative">
@@ -125,7 +113,7 @@
                             <div class="portfolio-info">
                                 <h3>綠茶皂</h3>
                                 <i class="fa fa-usd" aria-hidden="true">3000</i>
-                                <i class="preview fa fa-eye"></i><i class="fa fa-heart-o" aria-hidden="true">246</i>
+                                <i class="fa fa-heart-o" aria-hidden="true">246</i>
                                 <i class="preview fa fa-eye"></i>
                             </div>
                           </a>
@@ -224,7 +212,6 @@
                                 <h3>五葉松皂</h3>
                                 <i class="fa fa-usd" aria-hidden="true">3000</i>
                                 <i class="fa fa-heart-o" aria-hidden="true">246</i>
-                                <i class="preview fa fa-eye"></i>
                                 </i>
                             </div>
                           </a>
@@ -238,7 +225,6 @@
                                 <h3>五葉松皂</h3>
                                 <i class="fa fa-usd" aria-hidden="true">3000</i>
                                 <i class="fa fa-heart-o" aria-hidden="true">246</i>
-                                <i class="preview fa fa-eye"></i>
                                 </i>
                             </div>
                           </a>
@@ -252,7 +238,6 @@
                                 <h3>五葉松皂</h3>
                                 <i class="fa fa-usd" aria-hidden="true">3000</i>
                                 <i class="fa fa-heart-o" aria-hidden="true">246</i>
-                                <i class="preview fa fa-eye"></i>
                                 </i>
                             </div>
                           </a>
@@ -266,7 +251,6 @@
                                 <h3>五葉松皂</h3>
                                 <i class="fa fa-usd" aria-hidden="true">3000</i>
                                 <i class="fa fa-heart-o" aria-hidden="true">246</i>
-                                <i class="preview fa fa-eye"></i>
                                 </i>
                             </div>
                           </a>
@@ -280,7 +264,6 @@
                                 <h3>五葉松皂</h3>
                                 <i class="fa fa-usd" aria-hidden="true">3000</i>
                                 <i class="fa fa-heart-o" aria-hidden="true">246</i>
-                                <i class="preview fa fa-eye"></i>
                                 </i>
                             </div>
                           </a>
@@ -302,7 +285,9 @@ export default {
 #portfolio {
   background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
-
+i {
+  font-size: 16px;
+}
 /* MENU-LEFT
 -------------------------- */
 /* layout */
