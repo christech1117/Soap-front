@@ -3,6 +3,7 @@
     <div class="row">
       <div class="col-sm-4">
         <div class="card wow fadeInUp">
+          <!-- <div class="overlay"></div> -->
           <div class="card-img">
             <a href="">
               <h3>結婚不知如何開始準備嗎？</h3>

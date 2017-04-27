@@ -144,6 +144,7 @@ ul.navbar-nav li.active .dropdown-menu>.active>a:hover, ul.navbar-nav li.active 
 /***** Slider *****/
 
 .slider {
+  position: relative;
   background: url('https://www.teasoap.com.tw/downloads/banner/pic/20140829091323.jpg') no-repeat center;
   height: 400px;
   margin-top: 65px;
@@ -154,10 +155,12 @@ ul.navbar-nav li.active .dropdown-menu>.active>a:hover, ul.navbar-nav li.active 
 .overlay {
   position: absolute;
   width: 100%;
-  height: 400px;
+  height: 100%;
   z-index: 2;
   background: #000;
   opacity: .3;
+  left: 0;
+  top: 0;
 }
 
 
@@ -309,7 +312,7 @@ ul.navbar-nav li.active .dropdown-menu>.active>a:hover, ul.navbar-nav li.active 
 }
 
 .card:hover img {
-  opacity: 0;
+  opacity: .3;
   -o-transition: all .5s;
   -moz-transition: all .5s;
   -webkit-transition: all .5s;
