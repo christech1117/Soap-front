@@ -10,6 +10,10 @@ body {
   line-height: 30px;
 }
 
+.container {
+  width: 1300px;
+}
+
 
 /*a {
     color: #9d426b;
@@ -294,24 +298,33 @@ ul.navbar-nav li.active .dropdown-menu>.active>a:hover, ul.navbar-nav li.active 
 /***** Latest card *****/
 
 .card {
-  width: 350px;
-  height: 400px;
+  height: 450px;
   margin-bottom: 40px;
-  padding-bottom: 20px;
   background: #ffffff;
   border: 1px solid #ddd;
   box-shadow: 0 1px 5px rgba(204, 204, 204, 0.75);
+  text-align: left;
 }
 
-.card-img {
-  background: url('https://www.teasoap.com.tw/downloads/bbs/pic/20170302094957.jpg') no-repeat top;
-  background-size: cover;
-  width: 350px;
-  height: 200px;
-  padding-top: 5px;
+.card img {
+  /*background: url('https://www.teasoap.com.tw/downloads/bbs/pic/20170302094957.jpg') no-repeat top;*/
+  width: 100%;
+  height: 250px;
 }
 
-.card:hover img {
+.card h4 {
+  padding: 25px 20px 0px 20px;
+  font-size: 20px;
+  height: 55px;
+}
+
+.card p {
+  padding: 5px 20px 20px 20px;
+  font-size: 15px;
+  color: #999999;
+}
+
+.card .card:hover img {
   opacity: .3;
   -o-transition: all .5s;
   -moz-transition: all .5s;
