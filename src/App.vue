@@ -80,7 +80,7 @@ export default {
   margin-bottom: 1em;
 }
 .profile:after {
-  background: #9d426b url("/static/images/cart.svg") center no-repeat;
+  background: url("/static/images/cart.svg") #555 no-repeat center;
   position: absolute;
   left: 0;
   content: '';
@@ -90,12 +90,12 @@ export default {
   transition: .3s;
 }
 .profile:hover:after {
-  background-image: url("/static/images/cd-top-arrow.svg");
+  background: url("/static/images/cd-top-arrow.svg") #ea5b7c no-repeat center;
   transform: rotate(90deg);
 }
 
 .top:after {
-  background: #9d426b url("/static/images/rocket.svg") center no-repeat;
+  background: url("/static/images/rocket.svg") #555 no-repeat center;
   position: absolute;
   left: 0;
   content: '';
@@ -103,11 +103,11 @@ export default {
   height: 100%;
   border-radius: 50%;
   transition: .3s;
-  /*background: #9d426b url("http://goo.gl/BDOwrt") center no-repeat;*/
 }
 .top:hover:after {
-  background-image: url("/static/images/startup.svg");
+  background: url("/static/images/startup.svg") #ea5b7c no-repeat center;
   transform: rotate(360deg);
+
 }
 
 .page-title-container {

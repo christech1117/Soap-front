@@ -20,7 +20,7 @@
               <a href="http://localhost:8080/news">最新消息</a>
             </li>
             <li>
-              <a href="http://localhost:8080/productMenu">商品介紹</a>
+              <a href="http://localhost:8080/productMenu/List">商品介紹</a>
             </li>
             <li>
               <a href="http://localhost:8080/rule">購物須知</a>
@@ -47,8 +47,6 @@ export default {
 </script>
 
 <style scoped>
-
-
 
 
 

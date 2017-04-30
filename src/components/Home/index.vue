@@ -1,17 +1,9 @@
 <template>
   <div class="Home">
     <Slider></Slider>
-    <br>
-    <div class="section-header wow fadeIn">
-        <h3>熱門活動</h3>
-    </div>
-    <News></News>
-    <br>
-    <div class="section-header wow fadeIn">
-        <h3>最新消息</h3>
-    </div>
-    <News></News>
     <Hot-product></Hot-product>
+    <News></News>
+
   </div>
 </template>
 

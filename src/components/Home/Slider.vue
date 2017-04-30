@@ -1,9 +1,6 @@
 <template lang="html">
-  <div class="">
-
-    <div class="slider wow fadeIn">
-      <div class="overlay"></div>
-    </div>
+  <div class="slider wow fadeIn">
+    <div class="overlay"></div>
   </div>
 </template>
 
