@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
   <div class="slider wow fadeIn">
     <div class="overlay"></div>
   </div>

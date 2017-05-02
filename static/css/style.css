@@ -336,13 +336,6 @@ button.btn:focus {
   text-align: left;
   line-height: 28px;
   font-size: 13px; }
-  .contact-us-container h3 {
-    margin-top: 25px;
-    font-size: 16px;
-    color: #5d5d5d;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7); }
 
 .contact-form {
   padding-top: 25px;
@@ -370,27 +363,38 @@ button.btn:focus {
     height: 300px;
     border: 5px solid #f8f8f8; }
 
-.login-container {
-  width: 400px;
-  height: 400px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: -200px;
-  margin-top: -200px;
+.panel {
+  width: 500px;
+  height: 600px;
+  margin: 65px auto;
   box-shadow: 0px 0px 30px grey; }
+  .panel img {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px; }
+
+.form-group label {
+  font-size: 20px; }
+
+.form-group i {
+  margin-right: 10px; }
+
+.form-group:hover {
+  color: #ea5b7c; }
 
 .input-form {
   margin-top: 10px;
-  width: 80%;
+  width: 50%;
   height: 30px;
-  margin-left: 10%;
   margin-bottom: 20px;
   border: none;
   outline: none;
   background: transparent;
-  font-size: 20px;
+  border-color: #FFF;
   border-bottom: 1px solid #757575; }
+  .input-form:focus {
+    border: none;
+    border-bottom: 2px solid #ea5b7c; }
 
 .footer-social {
   margin-top: 15px;

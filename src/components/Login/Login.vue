@@ -1,25 +1,25 @@
 <template lang="html">
-  <div class="Login">
-    <div class="contact-us-container">
-      <div class="container" style="text-align:center">
-          <h1 class="wow fadeInDown">【會員登入】</h1>
-          <div class="row">
-              <div class=" contact-form wow fadeInLeft">
-                  <form role="form" action="" method="">
-                    <div class="form-group">
-                      <label for="contact-name">帳號：</label>
-                      <input type="text" name="name" placeholder="Enter your account..." class="contact-name" id="contact-name">
-                    </div>
-                    <div class="form-group">
-                      <label for="contact-password">密碼：</label>
-                      <input type="password" name="password" placeholder="Enter your password..." class="contact-password" id="contact-password">
-                    </div>
-                      <button type="submit" class="btn">登入</button>
-                      <button type="button" class="btn" onclick="self.location.href='http://localhost:8080/forget'">忘記密碼</button>
-                      <button type="button" class="btn" onclick="self.location.href='http://localhost:8080/register'">註冊</button>
-                  </form>
-              </div>
+  <div class="container">
+    <div class="row">
+      <div class="panel wow fadeInLeft">
+        <img src="https://christech1117.github.io/uploads/avatar.png" alt="">
+        <div class="section-header wow fadeIn">
+          <h3><i class="fa fa-unlock-alt" aria-hidden="true"></i>會員登入</h3>
+        </div>
+        <form class="" action="" method="">
+          <div class="form-group">
+            <i class="fa fa-user-circle-o fa-2x" aria-hidden="true"></i>
+            <input class="input-form" type="e-mail" name="name" placeholder="Email">
           </div>
+          <div class="form-group">
+            <i class="fa fa-key fa-2x" aria-hidden="true"></i>
+            <input class="input-form" type="password" name="password" placeholder="Password">
+
+          </div>
+            <button type="submit" class="btn">登入</button>
+            <button type="button" class="btn" onclick="self.location.href='http://localhost:8080/forget'">忘記密碼</button>
+            <button type="button" class="btn" onclick="self.location.href='http://localhost:8080/register'">註冊</button>
+        </form>
       </div>
     </div>
   </div>
@@ -31,5 +31,7 @@ export default {
 </script>
 
 <style scoped>
-.contact-form input { width: 30%; height: 34px;}
+.container {
+  margin-top: 65px;
+}
 </style>

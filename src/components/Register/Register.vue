@@ -2,7 +2,9 @@
   <div class="ForgetPass">
     <div class="contact-us-container">
       <div class="container" style="text-align:center">
-          <h1 class="wow fadeInDown">【會員註冊】</h1>
+        <div class="section-header wow fadeIn">
+          <h3>會員註冊</h3>
+        </div>
           <div class="row">
               <div class=" contact-form wow fadeInLeft">
                   <form role="form" action="" method="">
