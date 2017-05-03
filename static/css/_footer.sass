@@ -1,29 +1,29 @@
-.footer-social
-  margin-top: 15px
-  text-align: right
-  span
-    a
-      font-size: 14px
+.footer
   a
-      margin: 0 0 0 10px
-      font-size: 26px
-      color: #888
-  a:hover, a:focus
-    color: #ea5b7c
+    color: $content-color
+    &:hover, &:focus
+      color: $main-color
 
-.panel-footer
-  background: #404145
-  bottom: 0
-  left: 0
+.top-footer
+  background: #313030
+  color: $content-color
+  .left
+    text-align: left
+
+.bottom-footer
+  background: #272626
+  padding-top: 10px
   margin: 0 auto
-  font-size: 14px
+  a
+    margin: 0 0 0 10px
+    font-size: 26px
+  ul
+    float: right
+    list-style: none
+  li
+    float: left
+    padding-left: 10px
 
-.footer-border
-  margin-top: 30px
-  border-top: 1px dashed #ddd
-
-.footer-copyright
-  margin-top: 15px
-  line-height: 24px
-  text-align: left
-  color: #888
+  .footer-copyright
+    text-align: left
+    color: $content-color
