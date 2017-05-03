@@ -56,7 +56,7 @@ input:focus, textarea:focus {
   -webkit-box-shadow: none;
   box-shadow: none; }
 
-button.btn {
+.btn {
   height: 30px;
   margin: 0;
   padding: 0 20px;
@@ -80,35 +80,26 @@ button.btn {
   -webkit-transition: all .3s;
   -ms-transition: all .3s;
   transition: all .3s; }
-
-button.btn:hover {
-  background: #5d5d5d;
-  border: 0;
-  color: #fff;
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  box-shadow: none; }
-
-button.btn:active {
-  outline: 0;
-  background: #5d5d5d;
-  border: 0;
-  color: #fff;
-  -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15) inset, 0 -1px 25px 0 rgba(0, 0, 0, 0.05) inset;
-  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15) inset, 0 -1px 25px 0 rgba(0, 0, 0, 0.05) inset;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15) inset, 0 -1px 25px 0 rgba(0, 0, 0, 0.05) inset; }
-
-button.btn:focus {
-  outline: 0;
-  background: #5d5d5d;
-  border: 0;
-  color: #fff; }
-
-.btn:active:focus, .btn.active:focus {
-  outline: 0;
-  background: #5d5d5d;
-  border: 0;
-  color: #fff; }
+  .btn:hover {
+    background: #5d5d5d;
+    border: 0;
+    color: #fff;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+  .btn:active {
+    outline: 0;
+    background: #5d5d5d;
+    border: 0;
+    color: #fff;
+    -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15) inset, 0 -1px 25px 0 rgba(0, 0, 0, 0.05) inset;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15) inset, 0 -1px 25px 0 rgba(0, 0, 0, 0.05) inset;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15) inset, 0 -1px 25px 0 rgba(0, 0, 0, 0.05) inset; }
+  .btn:focus {
+    outline: 0;
+    background: #5d5d5d;
+    border: 0;
+    color: #fff; }
 
 .slider {
   position: relative;
@@ -309,26 +300,17 @@ button.btn:focus {
   -webkit-animation-play-state: paused;
   animation-play-state: paused; }
 
-.about-us-container {
+.about-container {
   margin-top: 65px; }
 
-.about-us-text {
-  border-bottom: 2px solid #555;
+.about-group {
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: left; }
-  .about-us-text h3 {
-    margin-top: 25px;
-    font-family: 'Droid Sans', sans-serif;
-    font-size: 30px;
-    color: #5d5d5d;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7); }
-  .about-us-text p {
-    line-height: 28px;
-    font-size: 18px; }
+  height: 350px;
+  margin-top: 15px;
+  border-bottom: 2px solid #ea5b7c; }
+  .about-group p {
+    font-size: 18px;
+    text-align: left; }
 
 .contact-us-container {
   margin-top: 65px;

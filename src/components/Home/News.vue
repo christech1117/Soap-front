@@ -1,11 +1,11 @@
 <template>
-  <div class="container">
-    <div class="section-header wow fadeIn">
+  <div class="container animated fadeIn">
+    <div class="section-header">
         <h3>限時活動</h3>
     </div>
     <div class="row">
       <div class="col-sm-4">
-        <div class="news-card wow fadeInUp">
+        <div class="news-card">
           <a href="">
             <img src="http://www.monga.com.tw/NewsImgs/74/2016%E8%87%BA%E7%81%A3%E6%96%87%E5%8D%9A%E6%9C%83%20%E8%89%8B%E8%88%BA%E8%82%A5%E7%9A%825.jpg" alt="">
             <h4>結婚不知如何開始準備嗎？</h4>
@@ -14,7 +14,7 @@
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="news-card wow fadeInUp">
+        <div class="news-card">
           <a href="">
             <img src="http://www.monga.com.tw/NewsImgs/79/3.jpg" alt="Do">
             <h4>用愛經營，讓蜜月更甜蜜！</h4>
@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="news-card wow fadeInUp">
+        <div class="news-card">
           <a href="">
             <img src="http://www.monga.com.tw/NewsImgs/70/3.jpg" alt="Sit Am">
             <h4>特搜 ♪ 全台嫁妝店和禮俗用品店！</h4>
@@ -37,7 +37,7 @@
     </div>
     <div class="row">
       <div class="col-sm-3">
-        <div class="news-card wow fadeInUp">
+        <div class="news-card">
           <a href="">
             <img src="http://www.monga.com.tw/NewsImgs/74/2016%E8%87%BA%E7%81%A3%E6%96%87%E5%8D%9A%E6%9C%83%20%E8%89%8B%E8%88%BA%E8%82%A5%E7%9A%825.jpg" alt="">
             <h4>結婚不知如何開始準備嗎？</h4>
@@ -46,7 +46,7 @@
         </div>
       </div>
       <div class="col-sm-3">
-        <div class="news-card wow fadeInUp">
+        <div class="news-card">
           <a href="">
             <img src="http://www.monga.com.tw/NewsImgs/79/3.jpg" alt="Do">
             <h4>用愛經營，讓蜜月更甜蜜！</h4>
@@ -55,7 +55,7 @@
         </div>
       </div>
       <div class="col-sm-3">
-        <div class="news-card wow fadeInUp">
+        <div class="news-card">
           <a href="">
             <img src="http://www.monga.com.tw/NewsImgs/70/3.jpg" alt="Sit Am">
             <h4>特搜 ♪ 全台嫁妝店和禮俗用品店！</h4>
@@ -64,7 +64,7 @@
         </div>
       </div>
       <div class="col-sm-3">
-        <div class="news-card wow fadeInUp">
+        <div class="news-card">
           <a href="">
             <img src="http://www.monga.com.tw/NewsImgs/70/3.jpg" alt="Sit Am">
             <h4>特搜 ♪ 全台嫁妝店和禮俗用品店！</h4>
@@ -73,7 +73,7 @@
         </div>
       </div>
       <div class="col-sm-3">
-        <div class="news-card wow fadeInUp">
+        <div class="news-card">
           <a href="">
             <img src="http://www.monga.com.tw/NewsImgs/74/2016%E8%87%BA%E7%81%A3%E6%96%87%E5%8D%9A%E6%9C%83%20%E8%89%8B%E8%88%BA%E8%82%A5%E7%9A%825.jpg" alt="">
             <h4>結婚不知如何開始準備嗎？</h4>
@@ -82,7 +82,7 @@
         </div>
       </div>
       <div class="col-sm-3">
-        <div class="news-card wow fadeInUp">
+        <div class="news-card">
           <a href="">
             <img src="http://www.monga.com.tw/NewsImgs/79/3.jpg" alt="Do">
             <h4>用愛經營，讓蜜月更甜蜜！</h4>
@@ -91,7 +91,7 @@
         </div>
       </div>
       <div class="col-sm-3">
-        <div class="news-card wow fadeInUp">
+        <div class="news-card">
           <a href="">
             <img src="http://www.monga.com.tw/NewsImgs/70/3.jpg" alt="Sit Am">
             <h4>特搜 ♪ 全台嫁妝店和禮俗用品店！</h4>
@@ -100,7 +100,7 @@
         </div>
       </div>
       <div class="col-sm-3">
-        <div class="news-card wow fadeInUp">
+        <div class="news-card">
           <a href="">
             <img src="http://www.monga.com.tw/NewsImgs/70/3.jpg" alt="Sit Am">
             <h4>特搜 ♪ 全台嫁妝店和禮俗用品店！</h4>

@@ -1,9 +1,9 @@
-<template lang="html">
+<template>
   <div class="container">
     <div class="row">
-      <div class="panel wow fadeInLeft">
+      <div class="panel animated zoomIn">
         <img src="https://christech1117.github.io/uploads/avatar.png" alt="">
-        <div class="section-header wow fadeIn">
+        <div class="section-header">
           <h3><i class="fa fa-unlock-alt" aria-hidden="true"></i>會員登入</h3>
         </div>
         <form class="" action="" method="">
@@ -33,5 +33,6 @@ export default {
 <style scoped>
 .container {
   margin-top: 65px;
+  margin-bottom: 20px;
 }
 </style>

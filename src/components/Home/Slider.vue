@@ -1,5 +1,5 @@
 <template>
-  <div class="slider wow fadeIn">
+  <div class="slider animated fadeIn">
     <div class="overlay"></div>
   </div>
 </template>

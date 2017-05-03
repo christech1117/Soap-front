@@ -1,7 +1,7 @@
 <template>
   <div class="hot-product">
-    <div class="container">
-      <div class="section-header wow fadeIn">
+    <div class="container animated fadeIn">
+      <div class="section-header">
         <h3>找商品</h3>
       </div>
       <div class="row">

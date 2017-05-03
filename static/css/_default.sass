@@ -57,7 +57,7 @@ input:focus, textarea:focus
   -webkit-box-shadow: none
   box-shadow: none
 
-button.btn
+.btn
   height: 30px
   margin: 0
   padding: 0 20px
@@ -81,39 +81,26 @@ button.btn
   -webkit-transition: all .3s
   -ms-transition: all .3s
   transition: all .3s
-
-
-button.btn:hover
-  background: #5d5d5d
-  border: 0
-  color: #fff
-  -moz-box-shadow: none
-  -webkit-box-shadow: none
-  box-shadow: none
-
-
-button.btn:active
-  outline: 0
-  background: #5d5d5d
-  border: 0
-  color: #fff
-  -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .15) inset, 0 -1px 25px 0 rgba(0, 0, 0, .05) inset
-  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .15) inset, 0 -1px 25px 0 rgba(0, 0, 0, .05) inset
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .15) inset, 0 -1px 25px 0 rgba(0, 0, 0, .05) inset
-
-
-button.btn:focus
-  outline: 0
-  background: #5d5d5d
-  border: 0
-  color: #fff
-
-
-.btn:active:focus, .btn.active:focus
-  outline: 0
-  background: #5d5d5d
-  border: 0
-  color: #fff
+  &:hover
+    background: #5d5d5d
+    border: 0
+    color: #fff
+    -moz-box-shadow: none
+    -webkit-box-shadow: none
+    box-shadow: none
+  &:active
+    outline: 0
+    background: #5d5d5d
+    border: 0
+    color: #fff
+    -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .15) inset, 0 -1px 25px 0 rgba(0, 0, 0, .05) inset
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .15) inset, 0 -1px 25px 0 rgba(0, 0, 0, .05) inset
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .15) inset, 0 -1px 25px 0 rgba(0, 0, 0, .05) inset
+  &:focus
+    outline: 0
+    background: #5d5d5d
+    border: 0
+    color: #fff
 
 .slider
   position: relative
@@ -122,7 +109,6 @@ button.btn:focus
   margin-top: 65px
   margin-bottom: 55px
   background-size: cover
-
 
 .overlay
   position: absolute
@@ -133,7 +119,6 @@ button.btn:focus
   opacity: .3
   left: 0
   top: 0
-
 
 .section-header
   border-bottom: 2px solid #555
