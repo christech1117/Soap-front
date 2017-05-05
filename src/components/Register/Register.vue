@@ -1,15 +1,15 @@
 <template>
-  <div class="container">
+  <div class="container animated fadeIn">
     <ol class="breadcrumb">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">2013</a></li>
-    <li class="active">十一月</li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">2013</a></li>
+      <li class="active">十一月</li>
     </ol>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
-        <div class="panel animated zoomIn">
+        <div class="panel">
           <img src="/static/images/user.svg" alt="user-image">
-          <div class="section-header wow fadeIn">
+          <div class="section-header">
             <h3>會員註冊</h3>
           </div>
           <form action="">
@@ -33,8 +33,8 @@
               <i class="fa fa-key fa-2x" aria-hidden="true"></i>
               <input type="password" class="input-form" placeholder="Confirm password">
             </div>
-            <button type="submit" class="btn">註冊</button>
-            <button type="button" class="btn" onclick="self.location.href='http://localhost:8080/login'">已經是會員</button>
+            <router-link :to="{ path: 'Login' }"><button type="submit" class="btn">註冊</button></router-link>
+            <router-link :to="{ path: 'Login' }"> <button type="button" class="btn">已經是會員</button></router-link>
           </form>
         </div>
       </div>

@@ -12,18 +12,19 @@
             <span class="icon-bar"></span>
           </button>
           <!--品牌logo-->
-          <a class="navbar-brand" href="http://localhost:8080/">Brand</a>
+          <router-link class="navbar-brand" :to="{ path: '/' }">Brand</router-link>
+
         </div>
 
 
         <!--巡覽列-->
         <div class="collapse navbar-collapse" id="top-navbar">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://localhost:8080/news">最新消息</a></li>
-            <li><a href="http://localhost:8080/productMenu/List">商品介紹</a></li>
-            <li><a href="http://localhost:8080/about">關於我們</a></li>
-            <li><a href="http://localhost:8080/contact">聯絡我們</a></li>
-            <li><a href="http://localhost:8080/login">會員登入</a></li>
+            <li><router-link :to="{ path: 'News' }">最新消息</router-link></li>
+            <li><router-link :to="{ path: 'ProductList' }">商品介紹</router-link></li>
+            <li><router-link :to="{ path: 'About' }">關於我們</router-link></li>
+            <li><router-link :to="{ path: 'Contact' }">聯絡我們</router-link></li>
+            <li><router-link :to="{ path: 'Login' }">會員登入</router-link></li>
           </ul>
         </div>
       </div>

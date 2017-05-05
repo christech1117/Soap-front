@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container animated fadeIn">
     <ol class="breadcrumb">
       <li><a href="#">Home</a></li>
       <li><a href="#">2013</a></li>
@@ -7,7 +7,7 @@
     </ol>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
-        <div class="panel animated zoomIn">
+        <div class="panel">
           <img src="/static/images/forget.svg" alt="">
           <div class="section-header">
             <h3><i class="fa fa-lock" aria-hidden="true"></i>忘記密碼</h3>
@@ -17,9 +17,9 @@
               <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
               <input type="email" class="input-form" id="email" placeholder="Email">
             </div>
-            <button type="submit" class="btn">送出</button>
-            <button type="button" class="btn" onclick="self.location.href='http://localhost:8080/login'">加入會員</button>
-            <button type="button" class="btn" onclick="self.location.href='http://localhost:8080/register'">註冊會員</button>
+            <router-link :to="{ path: 'Login' }"><button type="submit" class="btn">送出</button></router-link>
+            <router-link :to="{ path: 'Login' }"><button type="button" class="btn">加入會員</button></router-link>
+            <router-link :to="{ path: 'Register' }"><button type="button" class="btn">註冊會員</button></router-link>
           </form>
         </div>
       </div>

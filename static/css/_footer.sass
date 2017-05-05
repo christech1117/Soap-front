@@ -1,14 +1,37 @@
 .footer
+  .top-footer
+    text-align: left
+    margin: 0 auto
+    color: $white-color
+  p
+    color: $white-color
   a
-    color: $content-color
-    &:hover, &:focus
+    color: $white-color
+    &:hover
       color: $main-color
+    &:focus
+      color: $click-color
+    i
+      padding-right: 15px
+    p
+      &:hover
+        color: $main-color
+      &:focus
+        color: $click-color
+  h3
+    &:after
+      content: ''
+      border-bottom: $main-color 3px solid
+      display: block
+      height: 2px
+      width: 60px
+      margin-top: 8px
+      margin-bottom: 15px
 
 .top-footer
+
   background: #313030
-  color: $content-color
-  .left
-    text-align: left
+  color: $content-color 
 
 .bottom-footer
   background: #272626

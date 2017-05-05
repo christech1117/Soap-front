@@ -21,7 +21,7 @@ export default new Router({
   routes: [
     { path: '/', name: 'Home', component: Home },
     { path: '/cart', name: 'Cart', component: Cart },
-    { path: '/productMenu/list', name: 'ProductList', component: ProductList },
+    { path: '/productList', name: 'ProductList', component: ProductList },
     { path: '/productMenu/singleItem', name: 'SingleItem', component: SingleItem },
     { path: '/contact', name: 'Contact', component: Contact },
     { path: '/about', name: 'About', component: About },

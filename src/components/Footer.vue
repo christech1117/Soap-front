@@ -3,33 +3,23 @@
     <div class="top-footer">
       <div class="container">
         <div class="row">
-          <div class="col-sm-4 left">
+          <div class="col-sm-3 col-sm-offset-1">
             <h3>關於我們</h3>
-            <p>Andia製皂超過半世紀，天然只是基本，誠意與用心才是茶山房的信念，就像人們
-藉由印章所賦予的「信用印記」。</p>
-            <h3>聯絡我們</h3> 
-            <a href="#">
-              <p>Facebook：Andia 粉絲團</p>
-            </a>
-            <a href="">
-              <p>Email：christech1117@gmail.com</p>
-            </a>
-           
+            <p>     提供一個平台，將小農的農業經營與消費者的生活做結合。小農在平台上提供特色、安全的農產品，將經營農業活動的甘苦點滴分享給消費者。</p>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-3 col-sm-offset-2">
             <h3>其他說明</h3>
-            <p><a href="#">隱私權政策</a></p>
-            <p><a href="#">免責聲明</a></p>
-            <p><a href="#">使用條款</a></p>
-            <p><a href="#">購物須知</a></p>
+            <p><router-link :to="{ path: 'OtherRule' }">隱私權政策</router-link></p>
+            <p><router-link :to="{ path: 'OtherRule' }">免責聲明</router-link></p>
+            <p><router-link :to="{ path: 'OtherRule' }">使用條款</router-link></p>
+            <p><router-link :to="{ path: 'Rule' }">購物須知</router-link></p>
             </ul>
           </div>
-          <div class="col-sm-4 right">
-            <h3>快速連結</h3>
-            <p><a href="#">最新消息</a></p>
-            <p><a href="#">商品介紹</a></p>
-            <p><a href="#">關於我們</a></p>
-            <p><a href="#">會員登入</a></p>
+          <div class="col-sm-3">
+            <h3>聯絡我們</h3>
+            <p><a href="https://www.google.com.tw/maps/place/221%E6%96%B0%E5%8C%97%E5%B8%82%E6%B1%90%E6%AD%A2%E5%8D%80%E4%BF%9D%E4%B8%80%E8%A1%97/@25.0810065,121.6718441,17z/data=!4m15!1m9!4m8!1m0!1m6!1m2!1s0x345d5300a71adf4f:0xafeba7cfeba54dfb!2zMjIx5paw5YyX5biC5rGQ5q2i5Y2A5L-d5LiA6KGX!2m2!1d121.6740381!2d25.0810065!3m4!1s0x345d5300a71adf4f:0xafeba7cfeba54dfb!8m2!3d25.0810065!4d121.6740381"><i class="fa fa-map-marker" aria-hidden="true"></i>地址：汐止區保一街</a></p>
+            <p><a href="tel:0920-033849"><i class="fa fa-phone" aria-hidden="true"></i>電話：0920 - 033 - 849</a></p>
+            <p><a href="mailto:christech1117@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>E-mail：christech1117@gmail.com</a></p>
           </div>
         </div>
       </div>
@@ -47,6 +37,7 @@
               </li>
               <li>
                 <a href="#"><i class="fa fa-twitter"></i></a>
+                
               </li>
             </ul>
           </div>

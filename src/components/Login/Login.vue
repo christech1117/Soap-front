@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container animated fadeIn">
     <ol class="breadcrumb">
       <li><a href="#">Home</a></li>
       <li><a href="#">2013</a></li>
@@ -7,7 +7,7 @@
     </ol>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
-        <div class="panel animated zoomIn">
+        <div class="panel">
           <img src="https://christech1117.github.io/uploads/avatar.png" alt="">
           <div class="section-header">
             <h3><i class="fa fa-unlock-alt" aria-hidden="true"></i>會員登入</h3>
@@ -21,9 +21,9 @@
               <i class="fa fa-key fa-2x" aria-hidden="true"></i>
               <input class="input-form" type="password" placeholder="Password">
             </div>
-              <button type="submit" class="btn">登入</button>
-              <button type="button" class="btn" onclick="self.location.href='http://localhost:8080/forget'">忘記密碼</button>
-              <button type="button" class="btn" onclick="self.location.href='http://localhost:8080/register'">註冊</button>
+              <router-link :to="{ path: '/' }"><button type="submit" class="btn">登入</button></router-link>
+              <router-link :to="{ path: 'Forget' }"><button type="button" class="btn">忘記密碼</button></router-link>
+              <router-link :to="{ path: 'Register' }"><button type="button" class="btn">註冊會員</button></router-link>
           </form>
         </div>
       </div>
