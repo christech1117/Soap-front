@@ -2,7 +2,7 @@
   <div id="app">
     <Header></Header>
     <router-view></router-view>
-    <!--<Footer></Footer>-->
+    <Footer></Footer>
     <div class="fab-container">
       <a href="http://localhost:8080/cart"> <!--target="_blank"-->
         <div class="profile fab" tooltip="View My Cart"></div>

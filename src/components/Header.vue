@@ -21,7 +21,6 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="http://localhost:8080/news">最新消息</a></li>
             <li><a href="http://localhost:8080/productMenu/List">商品介紹</a></li>
-            <li><a href="http://localhost:8080/rule">購物須知</a></li>
             <li><a href="http://localhost:8080/about">關於我們</a></li>
             <li><a href="http://localhost:8080/contact">聯絡我們</a></li>
             <li><a href="http://localhost:8080/login">會員登入</a></li>
@@ -38,7 +37,4 @@ export default {
 </script>
 
 <style scoped>
-
-
-
 </style>
