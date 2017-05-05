@@ -27,6 +27,13 @@ li {
 img {
   max-width: 100%; }
 
+.banner-img {
+  background: no-repeat center;
+  height: 300px;
+  margin-top: 70px;
+  margin-bottom: 55px;
+  background-size: cover; }
+
 form a {
   color: white-color; }
 
@@ -105,7 +112,7 @@ input:focus, textarea:focus {
 
 .slider {
   position: relative;
-  background: url("https://www.teasoap.com.tw/downloads/image/about_ts/about_ts_01.png") no-repeat center;
+  background: url("https://unsplash.it/200/300") no-repeat center;
   height: 400px;
   margin-top: 65px;
   margin-bottom: 55px;
@@ -154,7 +161,8 @@ input:focus, textarea:focus {
   line-height: 35px;
   text-align: left;
   width: 80%;
-  margin: 0 auto; }
+  margin: 0px auto;
+  margin-bottom: 50px; }
   .list-group a {
     border-bottom: #ccc 2px solid; }
     .list-group a ul li {

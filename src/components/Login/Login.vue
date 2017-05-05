@@ -1,5 +1,6 @@
 <template>
-  <div class="container animated fadeIn">
+  <div class="login animated fadeIn">
+    <div class="container">
     <ol class="breadcrumb">
       <li><a href="#">Home</a></li>
       <li><a href="#">2013</a></li>
@@ -29,6 +30,7 @@
       </div>
     </div>
   </div>
+  </div>
 </template>
 
 <script>
@@ -38,7 +40,7 @@ export default {
 
 <style scoped>
 .container {
-  margin-top: 65px;
+  margin-top: 70px;
   margin-bottom: 20px;
 }
 </style>
