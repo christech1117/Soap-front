@@ -8,9 +8,6 @@ body {
   font-size: 14px;
   line-height: 30px; }
 
-.container {
-  width: 1300px; }
-
 a {
   color: #555;
   text-decoration: none;
@@ -128,32 +125,23 @@ input:focus, textarea:focus {
   letter-spacing: .2em;
   margin: 30px auto; }
 
-.navbar {
-  margin-bottom: 0;
+.navbar-default {
   background: #FAFAF5;
   border: 0;
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
-  border-radius: 0;
-  box-shadow: 0px 0px 30px grey; }
-
-.navbar-nav {
-  font-size: 16px;
-  color: #888;
-  letter-spacing: .13em;
-  text-transform: uppercase; }
-  .navbar-nav li a {
-    padding: 23px 10px;
-    border-bottom: 3px solid #fff;
-    color: #5d5d5d;
-    width: 120px; }
-    .navbar-nav li a:hover, .navbar-nav li a:focus {
+  box-shadow: 0px 0px 10px gray;
+  font-size: 16px; }
+  .navbar-default .navbar-nav li a {
+    padding: 23px 15px;
+    border-bottom: 3px solid #FAFAF5;
+    color: #000; }
+    .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active, .navbar-default .navbar-nav li a:focus {
+      background: #e0e0e0;
       border-color: #3CB371;
       outline: 0; }
 
 .navbar-brand {
   width: 300px;
-  height: 68px;
+  margin-top: 10px;
   background: url("../images/logo.png") no-repeat center;
   background-size: cover;
   text-indent: -99999px; }
