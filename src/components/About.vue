@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about animated fadeIn">
     <div class="banner-img" style="background-image: url('http://demo.mor-e.com.tw/demo/yatia/images/main/ce99d9306219b43ff4a11a2c68cd6bc5.jpg')"></div>
     <div class="container">
       <div class="section-header">

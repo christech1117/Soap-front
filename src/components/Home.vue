@@ -1,5 +1,5 @@
 <template>
-  <div class="Home">
+  <div class="home animated fadeIn">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
