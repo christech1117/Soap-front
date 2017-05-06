@@ -1,5 +1,5 @@
 <template>
-  <div class="about animated fadeIn">
+  <div class="about">
     <div class="banner-img" style="background-image: url('http://demo.mor-e.com.tw/demo/yatia/images/main/ce99d9306219b43ff4a11a2c68cd6bc5.jpg')"></div>
     <div class="container">
       <div class="section-header">
@@ -9,7 +9,7 @@
       <img src="http://demo.mor-e.com.tw/demo/yatia/images/images/188e71ab04b334ff72370d29323c44ff.jpg" alt="">
       <p>當前的制度與法規雖然有一些把關與管理的辦法，但是食安問題依舊層出不窮，因為防君子防不了小人，牽涉理念要凌駕於利益，除了訂出辦法最終還是要依靠良心，協會的宗旨首要是在食安上做把關，推廣無毒的優良產品，其次將這樣的觀念與理念傳達出去，畢竟用心栽種非慣行農法的無毒作物要花更大的心力與成本，這部份透過協會的運作也要讓消費者能夠理解。</p>
       <img src="http://demo.mor-e.com.tw/demo/yatia/images/images/42be164d17da0535834e01b0a0811634.jpg" alt="">
-      <p>      生產者用心對待環境與生產作物，消費者給予價格上的認同才會有持續下去的動力，如果您認同我們的理念也願意幫助推廣請註冊與關注我們的網站，多多給予小農支持，或是有農友想加入我們的行列也可與我們聯絡~期待您的行動參與~</p>
+      <p>生產者用心對待環境與生產作物，消費者給予價格上的認同才會有持續下去的動力，如果您認同我們的理念也願意幫助推廣請註冊與關注我們的網站，多多給予小農支持，或是有農友想加入我們的行列也可與我們聯絡~期待您的行動參與~</p>
     </div>
   </div>
 </template>

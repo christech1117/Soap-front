@@ -11,7 +11,7 @@
         <div class="panel">
           <img src="https://christech1117.github.io/uploads/avatar.png" alt="">
           <div class="section-header">
-            <h3><i class="fa fa-unlock-alt" aria-hidden="true"></i>會員登入</h3>
+            <h1><i class="fa fa-unlock-alt" aria-hidden="true"></i>會員登入</h1>
           </div>
           <form class="" action="" method="">
             <div class="form-group">

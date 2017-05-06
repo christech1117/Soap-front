@@ -11,11 +11,7 @@ body {
 a {
   color: #555;
   text-decoration: none;
-  -o-transition: all .3s;
-  -moz-transition: all .3s;
-  -webkit-transition: all .3s;
-  -ms-transition: all .3s;
-  transition: all .3s; }
+  transition: 0.5s 0s; }
 
 a:hover, a:focus {
   color: #c2c1c1;
@@ -84,11 +80,7 @@ input:focus, textarea:focus {
   -moz-box-shadow: 0 1px 25px 0 rgba(0, 0, 0, 0.05) inset, 0 -1px 25px 0 rgba(0, 0, 0, 0.05) inset;
   -webkit-box-shadow: 0 1px 25px 0 rgba(0, 0, 0, 0.05) inset, 0 -1px 25px 0 rgba(0, 0, 0, 0.05) inset;
   box-shadow: 0 1px 25px 0 rgba(0, 0, 0, 0.05) inset, 0 -1px 25px 0 rgba(0, 0, 0, 0.05) inset;
-  -o-transition: all .3s;
-  -moz-transition: all .3s;
-  -webkit-transition: all .3s;
-  -ms-transition: all .3s;
-  transition: all .3s; }
+  transition: 0.5s 0s; }
   .btn:hover {
     background: #2E8B57;
     border: 0;
@@ -130,11 +122,11 @@ input:focus, textarea:focus {
 
 .section-header {
   border-bottom: 2px solid #555;
-  max-width: 17em;
+  max-width: 20em;
   letter-spacing: .2em;
   margin: 30px auto; }
   .section-header h1 {
-    font-size: 30px; }
+    font-size: 26px; }
 
 .navbar-default {
   background: #FAFAF5;
@@ -323,11 +315,11 @@ input:focus, textarea:focus {
   animation-play-state: paused; }
 
 .about {
-  font-size: 20px;
   font-weight: 400; }
   .about p {
     margin: 50px 15%;
-    text-align: left; }
+    text-align: left;
+    font-size: 20px; }
 
 .contact-form input {
   width: 50%;
@@ -355,7 +347,8 @@ input:focus, textarea:focus {
   font-size: 20px; }
 
 .form-group i {
-  margin-right: 10px; }
+  margin-right: 10px;
+  transition: 0.5s 0s; }
 
 .form-group:hover {
   color: #3CB371; }

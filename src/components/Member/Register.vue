@@ -11,7 +11,7 @@
           <div class="panel">
             <img src="/static/images/user.svg" alt="user-image">
             <div class="section-header">
-              <h3>會員註冊</h3>
+              <h1>會員註冊</h1>
             </div>
             <form action="">
               <div class="form-group">

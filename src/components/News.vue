@@ -7,7 +7,7 @@
         <li class="active">最新消息</li>
       </ol>
       <div class="section-header">
-        <h3><i class="fa fa-newspaper-o" aria-hidden="true"></i>最新消息</h3>
+        <h1><i class="fa fa-newspaper-o" aria-hidden="true"></i>最新消息</h1>
       </div>
       <div class="list-group">
         <a href="#" class="list-group-item">

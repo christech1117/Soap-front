@@ -11,7 +11,7 @@
           <div class="panel">
             <img src="/static/images/forget.svg" alt="">
             <div class="section-header">
-              <h3><i class="fa fa-lock" aria-hidden="true"></i>忘記密碼</h3>
+              <h1><i class="fa fa-lock" aria-hidden="true"></i>忘記密碼</h1>
             </div>
             <form action="">
               <div class="form-group">

@@ -2,7 +2,7 @@
   <div class="contact animated fadeIn">
     <div class="banner-img" style="background-image: url('http://demo.mor-e.com.tw/demo/yatia/images/main/c854332138261a24a47fb3342d600a9b.jpg')"></div>
     <div class="section-header">
-      <h3><i class="fa fa-lock" aria-hidden="true"></i>聯絡我們</h3>
+      <h1><i class="fa fa-lock" aria-hidden="true"></i>聯絡我們</h1>
     </div>
     <div class="container">
       <div class="row">
