@@ -78,39 +78,7 @@ img {
   background: no-repeat center;
   height: 300px;
   margin-top: 70px;
-  margin-bottom: 55px;
   background-size: cover; }
-
-form a {
-  color: white-color; }
-
-input, textarea {
-  margin: 0;
-  padding: 0 6px;
-  vertical-align: middle;
-  background: none;
-  border: 1px solid #ddd;
-  font-size: 18px;
-  font-weight: 400;
-  color: #000;
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
-  border-radius: 0;
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  -o-transition: all .3s;
-  -moz-transition: all .3s;
-  -webkit-transition: all .3s;
-  -ms-transition: all .3s;
-  transition: all .3s; }
-
-input:focus, textarea:focus {
-  outline: 0;
-  border: 1px solid #bbb;
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  box-shadow: none; }
 
 .btn {
   height: 30px;
@@ -150,11 +118,21 @@ input:focus, textarea:focus {
 
 .section-header {
   border-bottom: 2px solid #555;
-  max-width: 20em;
+  max-width: 15em;
   letter-spacing: .2em;
-  margin: 30px auto; }
+  margin: 30px auto;
+  margin-bottom: 5px; }
   .section-header h1 {
     font-size: 26px; }
+
+.breadcrumb {
+  background: transparent;
+  font-size: 16px;
+  padding: 0; }
+  .breadcrumb a:hover {
+    color: #3CB371; }
+  .breadcrumb a:active, .breadcrumb a:focus {
+    color: #2E8B57; }
 
 .navbar-default {
   background: #FAFAF5;
@@ -200,6 +178,26 @@ input:focus, textarea:focus {
 
 .list-group-item {
   border: 0; }
+
+.productList {
+  -webkit-animation: fadeIn 1s ease both;
+  animation: fadeIn 1s ease both; }
+  .productList ul li {
+    width: 90%;
+    height: 50px; }
+    .productList ul li h3 {
+      color: #3CB371; }
+  .productList ul a {
+    color: #666;
+    font-size: 16px;
+    line-height: 50px;
+    border-bottom: 1px solid rgba(96, 76, 63, 0.5);
+    display: block;
+    width: 100%; }
+    .productList ul a:hover, .productList ul a:active, .productList ul a:focus {
+      background: #e0e0e0;
+      border-color: #3CB371;
+      outline: 0; }
 
 .news-card {
   width: 100%;
@@ -395,7 +393,9 @@ iframe {
   height: 600px;
   -webkit-animation: fadeInDown 1s ease both;
   animation: fadeInDown 1s ease both;
-  box-shadow: 0px 0px 10px gray; }
+  box-shadow: 0px 0px 10px gray;
+  margin-top: 100px;
+  margin-bottom: 20px; }
   .panel img {
     width: 200px;
     height: 200px;

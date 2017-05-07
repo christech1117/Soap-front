@@ -1,11 +1,6 @@
 <template>
   <div class="register">
     <div class="container">
-      <ol class="breadcrumb">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">2013</a></li>
-        <li class="active">十一月</li>
-      </ol>
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
           <div class="panel">
@@ -55,10 +50,7 @@ export default {
 </script>
 
 <style scoped>
-.container {
-  margin-top: 70px;
-  margin-bottom: 20px;
-}
+
 img {
   width: 100px;
   height: 100px;

@@ -58,42 +58,8 @@ img
   background: no-repeat center
   height: 300px
   margin-top: 70px
-  margin-bottom: 55px
+  // margin-bottom: 55px
   background-size: cover
-
-  
-
-form
-  a
-    color: white-color
-
-input, textarea
-  margin: 0
-  padding: 0 6px
-  vertical-align: middle
-  background: none
-  border: 1px solid #ddd
-  font-size: 18px
-  font-weight: 400
-  color: $black-color
-  -moz-border-radius: 0
-  -webkit-border-radius: 0
-  border-radius: 0
-  -moz-box-shadow: none
-  -webkit-box-shadow: none
-  box-shadow: none
-  -o-transition: all .3s
-  -moz-transition: all .3s
-  -webkit-transition: all .3s
-  -ms-transition: all .3s
-  transition: all .3s
-
-input:focus, textarea:focus
-  outline: 0
-  border: 1px solid #bbb
-  -moz-box-shadow: none
-  -webkit-box-shadow: none
-  box-shadow: none
 
 .btn
   height: 30px
@@ -108,7 +74,6 @@ input:focus, textarea:focus
   border-radius: 0
   border: 0
   +trans
-  
   &:hover, &:active, &:focus
     background: $click-color
     border: 0
@@ -135,9 +100,19 @@ input:focus, textarea:focus
 
 .section-header
   border-bottom: 2px solid #555
-  max-width: 20em
+  max-width: 15em
   letter-spacing: .2em
   margin: 30px auto
-  
+  margin-bottom: 5px
   h1
     font-size: 26px
+
+.breadcrumb
+  background: transparent
+  font-size: 16px
+  padding: 0
+  a
+    &:hover
+      color: $main-color
+    &:active, &:focus
+      color: $click-color

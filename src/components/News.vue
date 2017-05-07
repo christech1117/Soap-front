@@ -2,13 +2,13 @@
   <div class="news">
     <div class="banner-img" style="background-image: url('http://demo.mor-e.com.tw/demo/yatia/images/main/be27663b9469cd4b6f7a0110907aa275.jpg')"></div>
     <div class="container">
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-        <li class="active">最新消息</li>
-      </ol>
       <div class="section-header">
         <h1><i class="fa fa-newspaper-o" aria-hidden="true"></i>最新消息</h1>
       </div>
+      <ol class="breadcrumb">
+        <li><router-link :to="{ path: '/' }"><i class="fa fa-home" aria-hidden="true"></i></router-link></li>
+        <li class="active">最新消息</li>
+      </ol>
       <div class="list-group">
         <a href="#" class="list-group-item">
           <ul>
