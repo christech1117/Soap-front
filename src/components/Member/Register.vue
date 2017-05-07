@@ -34,8 +34,8 @@
                 <label class="sr-only" for="Confirm password">密碼確認</label>
                 <input type="password" class="form-control" placeholder="密碼確認">
               </div>
-              <router-link :to="{ path: 'login' }"><button type="submit" class="btn">註冊</button></router-link>
-              <router-link :to="{ path: 'login' }"> <button type="button" class="btn">已經是會員</button></router-link>
+              <router-link :to="{ path: '/login' }"><button type="submit" class="btn">註冊</button></router-link>
+              <router-link :to="{ path: '/login' }"> <button type="button" class="btn">已經是會員</button></router-link>
             </form>
           </div>
         </div>

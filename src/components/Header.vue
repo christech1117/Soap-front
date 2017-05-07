@@ -20,11 +20,11 @@
         <!--巡覽列-->
         <div class="collapse navbar-collapse" id="top-navbar">
           <ul class="nav navbar-nav navbar-right">
-            <li><router-link :to="{ path: 'news' }">最新消息</router-link></li>
-            <li><router-link :to="{ path: 'productList' }">商品介紹</router-link></li>
-            <li><router-link :to="{ path: 'about' }">關於我們</router-link></li>
-            <li><router-link :to="{ path: 'contact' }">聯絡我們</router-link></li>
-            <li><router-link :to="{ path: 'login' }">會員登入</router-link></li>
+            <li><router-link :to="{ path: '/news' }">最新消息</router-link></li>
+            <li><router-link :to="{ path: '/productList' }">商品介紹</router-link></li>
+            <li><router-link :to="{ path: '/about' }">關於我們</router-link></li>
+            <li><router-link :to="{ path: '/contact' }">聯絡我們</router-link></li>
+            <li><router-link :to="{ path: '/login' }">會員登入</router-link></li>
           </ul>
         </div>
       </div>

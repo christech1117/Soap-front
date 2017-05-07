@@ -14,9 +14,9 @@
                 <label class="sr-only" for="email">電子郵件</label>
                 <input type="email" class="form-control" id="email" placeholder="電子郵件">
               </div>
-              <router-link :to="{ path: 'login' }"><button type="submit" class="btn">送出</button></router-link>
-              <router-link :to="{ path: 'login' }"><button type="button" class="btn">加入會員</button></router-link>
-              <router-link :to="{ path: 'register' }"><button type="button" class="btn">註冊會員</button></router-link>
+              <router-link :to="{ path: '/login' }"><button type="submit" class="btn">送出</button></router-link>
+              <router-link :to="{ path: '/login' }"><button type="button" class="btn">加入會員</button></router-link>
+              <router-link :to="{ path: '/register' }"><button type="button" class="btn">註冊會員</button></router-link>
             </form>
           </div>
         </div>

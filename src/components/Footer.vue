@@ -9,10 +9,10 @@
           </div>
           <div class="col-sm-3 col-sm-offset-2">
             <h3>其他說明</h3>
-            <p><router-link :to="{ path: 'OtherRule' }">隱私權政策</router-link></p>
-            <p><router-link :to="{ path: 'OtherRule' }">免責聲明</router-link></p>
-            <p><router-link :to="{ path: 'OtherRule' }">使用條款</router-link></p>
-            <p><router-link :to="{ path: 'Rule' }">購物須知</router-link></p>
+            <p><router-link :to="{ path: '/otherRule' }">隱私權政策</router-link></p>
+            <p><router-link :to="{ path: '/otherRule' }">免責聲明</router-link></p>
+            <p><router-link :to="{ path: '/otherRule' }">使用條款</router-link></p>
+            <p><router-link :to="{ path: '/rule' }">購物須知</router-link></p>
             </ul>
           </div>
           <div class="col-sm-3">

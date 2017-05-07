@@ -1,10 +1,16 @@
-.productList
+.productList,.singleItem
   animation: fadeIn 1s ease both
+  .col-md-12
+    p
+      padding: 0 100px
+    img
+      margin-bottom: 50px
   ul
     li
       +size(90%,50px)
       h3
         color: $main-color
+      
     a
       color: #666
       font-size: 16px
@@ -16,3 +22,7 @@
         background: #e0e0e0
         border-color: $main-color
         outline: 0
+    .form-control
+        margin: 0 10%
+
+    

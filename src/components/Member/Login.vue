@@ -20,8 +20,8 @@
                 <input class="form-control" type="password" placeholder="您的密碼">
               </div>
                 <router-link :to="{ path: '/' }"><button type="submit" class="btn">登入</button></router-link>
-                <router-link :to="{ path: 'forget' }"><button type="button" class="btn">忘記密碼</button></router-link>
-                <router-link :to="{ path: 'register' }"><button type="button" class="btn">註冊會員</button></router-link>
+                <router-link :to="{ path: '/forget' }"><button type="button" class="btn">忘記密碼</button></router-link>
+                <router-link :to="{ path: '/register' }"><button type="button" class="btn">註冊會員</button></router-link>
             </form>
           </div>
         </div>

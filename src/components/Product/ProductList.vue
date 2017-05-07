@@ -26,9 +26,9 @@
         <div class="col-md-9">
           <div class="row">
             <div class="col-xs-4 col-sm-3 col-md-3">
-              <a href="" class="thumbnail">
+              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
                 <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/138/20161115173455546_bp.jpg" alt="">
-              </a>
+              </router-link>
             </div>
             <div class="col-xs-4 col-sm-3 col-md-3">
               <a href="" class="thumbnail">
