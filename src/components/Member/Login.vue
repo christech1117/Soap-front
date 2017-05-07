@@ -1,5 +1,5 @@
 <template>
-  <div class="login animated fadeIn">
+  <div class="login">
     <div class="container">
     <ol class="breadcrumb">
       <li><a href="#">Home</a></li>
@@ -23,8 +23,8 @@
               <input class="input-form" type="password" placeholder="Password">
             </div>
               <router-link :to="{ path: '/' }"><button type="submit" class="btn">登入</button></router-link>
-              <router-link :to="{ path: 'Forget' }"><button type="button" class="btn">忘記密碼</button></router-link>
-              <router-link :to="{ path: 'Register' }"><button type="button" class="btn">註冊會員</button></router-link>
+              <router-link :to="{ path: 'forget' }"><button type="button" class="btn">忘記密碼</button></router-link>
+              <router-link :to="{ path: 'register' }"><button type="button" class="btn">註冊會員</button></router-link>
           </form>
         </div>
       </div>

@@ -1,17 +1,21 @@
-.contact-form
-  input
-    width: 50%
-    height: 34px
-  textarea
-    width: 50%
-    height: 170px
-    padding-top: 6px
-    padding-bottom: 6px
-.map
+iframe
+  +size(600px,400px)
   
-  iframe
-    width: 600px
-    height: 310px
-  
+.contact
+  animation: fadeIn 1s ease both
 
-.contact-adress
+  .container
+    +size(50%, 100%)
+    animation: fadeInUp 1s ease both
+    .info
+      font-size: 20px
+      margin-top: 50px
+      margin-bottom: 50px
+      i
+        color: $main-color
+        padding-bottom: 20px
+
+    .form-group
+      text-align: left
+      .input-form
+        +size(100%, 30px)

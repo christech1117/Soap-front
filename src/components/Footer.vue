@@ -17,7 +17,7 @@
           </div>
           <div class="col-sm-3">
             <h3>聯絡我們</h3>
-            <p><a href="https://www.google.com.tw/maps/place/221%E6%96%B0%E5%8C%97%E5%B8%82%E6%B1%90%E6%AD%A2%E5%8D%80%E4%BF%9D%E4%B8%80%E8%A1%97/@25.0810065,121.6718441,17z/data=!4m15!1m9!4m8!1m0!1m6!1m2!1s0x345d5300a71adf4f:0xafeba7cfeba54dfb!2zMjIx5paw5YyX5biC5rGQ5q2i5Y2A5L-d5LiA6KGX!2m2!1d121.6740381!2d25.0810065!3m4!1s0x345d5300a71adf4f:0xafeba7cfeba54dfb!8m2!3d25.0810065!4d121.6740381"><i class="fa fa-map-marker" aria-hidden="true"></i>地址：汐止區保一街</a></p>
+            <p><a href="https://www.google.com.tw/maps/place/221%E6%96%B0%E5%8C%97%E5%B8%82%E6%B1%90%E6%AD%A2%E5%8D%80%E4%BF%9D%E4%B8%80%E8%A1%97/@25.0810065,121.6718441,17z/data=!4m15!1m9!4m8!1m0!1m6!1m2!1s0x345d5300a71adf4f:0xafeba7cfeba54dfb!2zMjIx5paw5YyX5biC5rGQ5q2i5Y2A5L-d5LiA6KGX!2m2!1d121.6740381!2d25.0810065!3m4!1s0x345d5300a71adf4f:0xafeba7cfeba54dfb!8m2!3d25.0810065!4d121.6740381"><i class="fa fa-map-marker" aria-hidden="true"></i>地址：新北市汐止區汐止火車站</a></p>
             <p><a href="tel:0920-033849"><i class="fa fa-phone" aria-hidden="true"></i>電話：0920 - 033 - 849</a></p>
             <p><a href="mailto:christech1117@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>E-mail：christech1117@gmail.com</a></p>
           </div>
@@ -37,7 +37,6 @@
               </li>
               <li>
                 <a href="#"><i class="fa fa-twitter"></i></a>
-                
               </li>
             </ul>
           </div>

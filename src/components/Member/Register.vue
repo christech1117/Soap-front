@@ -1,5 +1,5 @@
 <template>
-  <div class="register animated fadeIn">
+  <div class="register">
     <div class="container">
       <ol class="breadcrumb">
         <li><a href="#">Home</a></li>
@@ -34,8 +34,8 @@
                 <i class="fa fa-key fa-2x" aria-hidden="true"></i>
                 <input type="password" class="input-form" placeholder="Confirm password">
               </div>
-              <router-link :to="{ path: 'Login' }"><button type="submit" class="btn">註冊</button></router-link>
-              <router-link :to="{ path: 'Login' }"> <button type="button" class="btn">已經是會員</button></router-link>
+              <router-link :to="{ path: 'login' }"><button type="submit" class="btn">註冊</button></router-link>
+              <router-link :to="{ path: 'login' }"> <button type="button" class="btn">已經是會員</button></router-link>
             </form>
           </div>
         </div>

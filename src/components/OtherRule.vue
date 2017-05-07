@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
   <div class="OtherRule">
     <div class="container">
       <div class="tabbable-panel">

@@ -1,5 +1,5 @@
 <template>
-  <div class="news animated fadeIn">
+  <div class="news">
     <div class="banner-img" style="background-image: url('http://demo.mor-e.com.tw/demo/yatia/images/main/be27663b9469cd4b6f7a0110907aa275.jpg')"></div>
     <div class="container">
       <ol class="breadcrumb">

@@ -1,5 +1,5 @@
 <template>
-  <div class="productList animated fadeIn">
+  <div class="productList">
     <div class="banner-img" style="background-image: url('http://demo.mor-e.com.tw/demo/yatia/images/main/6b149f1fdc0c0f8e2cc4594a60ec0b03.jpg')"></div>
     <div class="container">
       <ol class="breadcrumb">
