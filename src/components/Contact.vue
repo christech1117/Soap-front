@@ -5,7 +5,8 @@
       <h1><i class="fa fa-lock" aria-hidden="true"></i>聯絡我們</h1>
     </div>
     <div class="container">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.990386083413!2d121.6595453154942!3d25.068314983956313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d5312bd5fc723%3A0x265d7d910255e527!2z5rGQ5q2i54Gr6LuK56uZ!5e0!3m2!1szh-TW!2stw!4v1494119466624" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.990386083413!2d121.6595453154942!3d25.068314983956313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d5312bd5fc723%3A0x265d7d910255e527!2z5rGQ5q2i54Gr6LuK56uZ!5e0!3m2!1szh-TW!2stw!4v1494119466624" frameborder="0" style="border:0" allowfullscreen></iframe>
+    -->
       <div class="row info">
         <div class="col-md-4">
           <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
@@ -23,19 +24,20 @@
       <form action="">
         <div class="row">
           <div class="col-xs-12 col-md-12 form-group">
-        
-            <input type="text" class="input-form" placeholder="您的姓名" >
+            <label class="sr-only" for="name">姓名</label>
+            <input type="text" class="form-control" placeholder="您的姓名" >
           </div>
           <div class="col-xs-12 col-md-6 form-group">
-
-            <input type="email" class="input-form" placeholder="電子郵件">
+            <label class="sr-only" for="email">電子郵件</label>
+            <input type="email" class="form-control" placeholder="電子郵件">
           </div>
           <div class="col-xs-12 col-md-6 form-group">
-
-            <input type="number" class="input-form" placeholder="行動電話">
+            <label class="sr-only" for="phone">行動電話</label>
+            <input type="number" class="form-control" placeholder="行動電話">
           </div>
           <div class="col-xs-12 col-md-12 form-group">
-            <textarea cols="100%" rows="5" placeholder="我想說的是..."></textarea>
+            <label class="sr-only" for="email">內容</label>
+            <textarea class="form-control" rows="5" placeholder="我想說的是..."></textarea>
           </div>
         </div>
         <router-link :to="{ path: '/contact' }"><button type="submit" class="btn">登入</button></router-link>

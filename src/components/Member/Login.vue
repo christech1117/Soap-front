@@ -16,11 +16,13 @@
           <form class="" action="" method="">
             <div class="form-group">
               <i class="fa fa-user-circle-o fa-2x" aria-hidden="true"></i>
-              <input class="input-form" type="email" placeholder="Email">
+              <label class="sr-only" for="email">電子郵件</label>
+              <input class="form-control" type="email" placeholder="電子郵件">
             </div>
             <div class="form-group">
               <i class="fa fa-key fa-2x" aria-hidden="true"></i>
-              <input class="input-form" type="password" placeholder="Password">
+              <label class="sr-only" for="password">密碼</label>
+              <input class="form-control" type="password" placeholder="您的密碼">
             </div>
               <router-link :to="{ path: '/' }"><button type="submit" class="btn">登入</button></router-link>
               <router-link :to="{ path: 'forget' }"><button type="button" class="btn">忘記密碼</button></router-link>

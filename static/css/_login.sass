@@ -12,22 +12,25 @@
   i
     margin-right: 10px
     +trans
-  &:hover
+  &:hover,&:focus
     color: $main-color
-    
 
+.login, .forget, .register
+  .form-control
+    +size(50%, 100%)
+    display: inline
 
-.input-form
-  margin-top: 10px
-  +size(50%,30px)
-  margin-bottom: 20px
+.form-control
+  font-size: 16px
+  margin: 5px 10px
+  background: transparent
   border: none
   outline: none
-  background: transparent
-  border-color: $white-color
+  box-shadow: none
   border-bottom: 1px solid #757575
-  
   &:focus
     border: none
+    outline: none
+    box-shadow: none
     border-bottom: 2px solid $main-color
     color: $black-color

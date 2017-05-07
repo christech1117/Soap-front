@@ -16,23 +16,28 @@
             <form action="">
               <div class="form-group">
                 <i class="fa fa-id-card-o fa-2x" aria-hidden="true"></i>
-                <input type="text" class="input-form" placeholder="Name" >
+                <label class="sr-only" for="name">姓名</label>
+                <input type="text" class="form-control" placeholder="您的姓名">
               </div>
               <div class="form-group">
                 <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
-                <input type="number" class="input-form" id="phone" placeholder="Phone">
+                <label class="sr-only" for="phone">行動電話</label>
+                <input type="number" class="form-control" id="phone" placeholder="行動電話">
               </div>
               <div class="form-group">
                 <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-                <input type="email" class="input-form" placeholder="Email">
+                <label class="sr-only" for="email">電子郵件</label>
+                <input type="email" class="form-control" placeholder="電子郵件">
               </div>
               <div class="form-group">
                 <i class="fa fa-key fa-2x" aria-hidden="true"></i>
-                <input type="password" class="input-form" placeholder="Password">
+                <label class="sr-only" for="password">您的密碼</label>
+                <input type="password" class="form-control" placeholder="您的密碼">
               </div>
               <div class="form-group">
                 <i class="fa fa-key fa-2x" aria-hidden="true"></i>
-                <input type="password" class="input-form" placeholder="Confirm password">
+                <label class="sr-only" for="Confirm password">密碼確認</label>
+                <input type="password" class="form-control" placeholder="密碼確認">
               </div>
               <router-link :to="{ path: 'login' }"><button type="submit" class="btn">註冊</button></router-link>
               <router-link :to="{ path: 'login' }"> <button type="button" class="btn">已經是會員</button></router-link>

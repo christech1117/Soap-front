@@ -387,6 +387,8 @@ iframe {
       .contact .container .form-group .input-form {
         width: 100%;
         height: 30px; }
+    .contact .container a:hover {
+      color: #3CB371; }
 
 .panel {
   width: 100%;
@@ -406,21 +408,26 @@ iframe {
   margin-right: 10px;
   transition: 0.5s 0s; }
 
-.form-group:hover {
+.form-group:hover, .form-group:focus {
   color: #3CB371; }
 
-.input-form {
-  margin-top: 10px;
+.login .form-control, .forget .form-control, .register .form-control {
   width: 50%;
-  height: 30px;
-  margin-bottom: 20px;
+  height: 100%;
+  display: inline; }
+
+.form-control {
+  font-size: 16px;
+  margin: 5px 10px;
+  background: transparent;
   border: none;
   outline: none;
-  background: transparent;
-  border-color: #FFF;
+  box-shadow: none;
   border-bottom: 1px solid #757575; }
-  .input-form:focus {
+  .form-control:focus {
     border: none;
+    outline: none;
+    box-shadow: none;
     border-bottom: 2px solid #3CB371;
     color: #000; }
 

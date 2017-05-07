@@ -16,7 +16,8 @@
             <form action="">
               <div class="form-group">
                 <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-                <input type="email" class="input-form" id="email" placeholder="Email">
+                <label class="sr-only" for="email">電子郵件</label>
+                <input type="email" class="form-control" id="email" placeholder="電子郵件">
               </div>
               <router-link :to="{ path: 'login' }"><button type="submit" class="btn">送出</button></router-link>
               <router-link :to="{ path: 'login' }"><button type="button" class="btn">加入會員</button></router-link>
