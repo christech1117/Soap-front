@@ -453,6 +453,10 @@ iframe {
     border-bottom: 2px solid #3CB371;
     color: #000; }
 
+.cart {
+  -webkit-animation: fadeIn 1s ease both;
+  animation: fadeIn 1s ease both; }
+
 .footer .top-footer {
   text-align: left;
   margin: 0 auto;

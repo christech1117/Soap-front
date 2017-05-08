@@ -1,106 +1,154 @@
 <template>
-<div>
-  <!-- Page Title -->
-  <div class="page-title-container">
-      <div class="container">
-          <div class="row">
-              <div class="col-sm-12 wow fadeIn">
-                  <i class="fa fa-shopping-cart"></i>
-                  <h1>Home / Shopping</h1>
-                  <!-- <p>Here is how you can contact us</p> -->
-              </div>
-          </div>
-      </div>
-  </div>
+<div class="cart">
+  <div class="banner-img" style="background-image: url('http://demo.mor-e.com.tw/demo/yatia/images/main/c854332138261a24a47fb3342d600a9b.jpg')"></div>
+    <div class="section-header">
+      <h1><i class="fa fa-shopping-cart" aria-hidden="true"></i>購物車</h1>
+    </div>
+    <ol class="breadcrumb">
+      <li><router-link :to="{ path: '/' }"><i class="fa fa-home" aria-hidden="true"></i></router-link></li>
+      <li class="active">購物車</li>
+    </ol>
   <div class="container">
     <div class="row">
         <div class="col-sm-12 col-md-10 col-md-offset-1">
-            <table class="table table-hover">
-                <thead>
-                    <tr>
-                        <th>Product</th>
-                        <th>Quantity</th>
-                        <th class="text-center">Price</th>
-                        <th class="text-center">Total</th>
-                        <th> </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="col-sm-8 col-md-6">
-                        <div class="media">
-                            <a class="thumbnail pull-left" href="#"> <img class="media-object" src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-2/72/product-icon.png" style="width: 72px; height: 72px;"> </a>
-                            <div class="media-body">
-                                <h4 class="media-heading"><a href="#">Product name</a></h4>
-                                <h5 class="media-heading"> by <a href="#">Brand name</a></h5>
-                                <span>Status: </span><span class="text-success"><strong>In Stock</strong></span>
-                            </div>
-                        </div></td>
-                        <td class="col-sm-1 col-md-1" style="text-align: center">
-                        <input type="email" class="form-control" id="exampleInputEmail1" value="3">
-                        </td>
-                        <td class="col-sm-1 col-md-1 text-center"><strong>$4.87</strong></td>
-                        <td class="col-sm-1 col-md-1 text-center"><strong>$14.61</strong></td>
-                        <td class="col-sm-1 col-md-1">
-                        <button type="button" class="btn btn-danger">
-                            <span class="glyphicon glyphicon-remove"></span> Remove
-                        </button></td>
-                    </tr>
-                    <tr>
-                        <td class="col-md-6">
-                        <div class="media">
-                            <a class="thumbnail pull-left" href="#"> <img class="media-object" src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-2/72/product-icon.png" style="width: 72px; height: 72px;"> </a>
-                            <div class="media-body">
-                                <h4 class="media-heading"><a href="#">Product name</a></h4>
-                                <h5 class="media-heading"> by <a href="#">Brand name</a></h5>
-                                <span>Status: </span><span class="text-warning"><strong>Leaves warehouse in 2 - 3 weeks</strong></span>
-                            </div>
-                        </div></td>
-                        <td class="col-md-1" style="text-align: center">
-                        <input type="email" class="form-control" id="exampleInputEmail1" value="2">
-                        </td>
-                        <td class="col-md-1 text-center"><strong>$4.99</strong></td>
-                        <td class="col-md-1 text-center"><strong>$9.98</strong></td>
-                        <td class="col-md-1">
-                        <button type="button" class="btn btn-danger">
-                            <span class="glyphicon glyphicon-remove"></span> Remove
-                        </button></td>
-                    </tr>
-                    <tr>
-                        <td>   </td>
-                        <td>   </td>
-                        <td>   </td>
-                        <td><h5>Subtotal</h5></td>
-                        <td class="text-right"><h5><strong>$24.59</strong></h5></td>
-                    </tr>
-                    <tr>
-                        <td>   </td>
-                        <td>   </td>
-                        <td>   </td>
-                        <td><h5>Estimated shipping</h5></td>
-                        <td class="text-right"><h5><strong>$6.94</strong></h5></td>
-                    </tr>
-                    <tr>
-                        <td>   </td>
-                        <td>   </td>
-                        <td>   </td>
-                        <td><h3>Total</h3></td>
-                        <td class="text-right"><h3><strong>$31.53</strong></h3></td>
-                    </tr>
-                    <tr>
-                        <td>   </td>
-                        <td>   </td>
-                        <td>   </td>
-                        <td>
-                        <button type="button" class="btn btn-default">
-                            <span class="glyphicon glyphicon-shopping-cart"></span> Continue Shopping
-                        </button></td>
-                        <td>
-                        <button type="button" class="btn btn-success">
-                            Checkout <span class="glyphicon glyphicon-play"></span>
-                        </button></td>
-                    </tr>
-                </tbody>
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>商品名稱</th>
+                <th>數量</th>
+                <th class="text-center">單價</th>
+                <th class="text-center">小計</th>
+                <th> </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-sm-8 col-md-6">
+                  <div class="media">
+                    <a class="thumbnail pull-left" href="#">
+                      <img class="media-object" src="https://www.teasoap.com.tw/downloads/product/10000/1000/138/20161115173455546_bp.jpg" style="width: 72px; height: 72px;">
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading"><a href="#">御用皂</a></h4>
+                      <h5 class="media-heading"> by <a href="#">Chris</a></h5>
+                      <span>狀態: </span><span class="text-success"><strong>有貨</strong></span>
+                    </div>
+                  </div>
+                </td>
+                <td class="col-sm-1 col-md-1" style="text-align: center">
+                    <input type="email" class="form-control" id="exampleInputEmail1" value="3">
+                  </td>
+                  <td class="col-sm-1 col-md-1 text-center"><strong>$4.87</strong></td>
+                  <td class="col-sm-1 col-md-1 text-center"><strong>$14.61</strong></td>
+                  <td class="col-sm-1 col-md-1">
+                  <button type="button" class="btn btn-danger">
+                      <span class="glyphicon glyphicon-remove"></span>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td class="col-md-6">
+                  <div class="media">
+                    <a class="thumbnail pull-left" href="#"> <img class="media-object" src="https://www.teasoap.com.tw/downloads/product/10000/1000/174/20170309104857690_bp.jpg" style="width: 72px; height: 72px;"> </a>
+                      <div class="media-body">
+                        <h4 class="media-heading"><a href="#">香草皂</a></h4>
+                        <h5 class="media-heading"> by <a href="#">Chris</a></h5>
+                        <span>狀態: </span><span class="text-warning"><strong>預計2-3週到貨</strong></span>
+                      </div>
+                  </div>
+                </td>
+                <td class="col-md-1" style="text-align: center">
+                <input type="email" class="form-control" id="exampleInputEmail1" value="2">
+                </td>
+                <td class="col-md-1 text-center"><strong>$4.99</strong></td>
+                <td class="col-md-1 text-center"><strong>$9.98</strong></td>
+                <td class="col-md-1">
+                  <button type="button" class="btn btn-danger">
+                  <span class="glyphicon glyphicon-remove"></span>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td class="col-sm-8 col-md-6">
+                  <div class="media">
+                    <a class="thumbnail pull-left" href="#">
+                      <img class="media-object" src="https://www.teasoap.com.tw/downloads/product/10000/1000/181/20170309113233718_bp.jpg" style="width: 72px; height: 72px;">
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading"><a href="#">高山皂</a></h4>
+                      <h5 class="media-heading"> by <a href="#">Chris</a></h5>
+                      <span>狀態: </span><span class="text-success"><strong>有貨</strong></span>
+                    </div>
+                  </div>
+                </td>
+                <td class="col-sm-1 col-md-1" style="text-align: center">
+                    <input type="email" class="form-control" id="exampleInputEmail1" value="3">
+                  </td>
+                  <td class="col-sm-1 col-md-1 text-center"><strong>$4.87</strong></td>
+                  <td class="col-sm-1 col-md-1 text-center"><strong>$14.61</strong></td>
+                  <td class="col-sm-1 col-md-1">
+                  <button type="button" class="btn btn-danger">
+                      <span class="glyphicon glyphicon-remove"></span>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td class="col-sm-8 col-md-6">
+                  <div class="media">
+                    <a class="thumbnail pull-left" href="#">
+                      <img class="media-object" src="https://www.teasoap.com.tw/downloads/product/10000/1000/179/20170309112712710_bp.jpg" style="width: 72px; height: 72px;">
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading"><a href="#">五葉松皂</a></h4>
+                      <h5 class="media-heading"> by <a href="#">Chris</a></h5>
+                      <span>狀態: </span><span class="text-success"><strong>有貨</strong></span>
+                    </div>
+                  </div>
+                </td>
+                <td class="col-sm-1 col-md-1" style="text-align: center">
+                    <input type="email" class="form-control" id="exampleInputEmail1" value="3">
+                  </td>
+                  <td class="col-sm-1 col-md-1 text-center"><strong>$4.87</strong></td>
+                  <td class="col-sm-1 col-md-1 text-center"><strong>$14.61</strong></td>
+                  <td class="col-sm-1 col-md-1">
+                  <button type="button" class="btn btn-danger">
+                      <span class="glyphicon glyphicon-remove"></span>
+                  </button>
+                </td>
+              </tr>
+                <tr>
+                    <td>   </td>
+                    <td>   </td>
+                    <td>   </td>
+                    <td><h5>商品金額</h5></td>
+                    <td class="text-right"><h5><strong>$24.59</strong></h5></td>
+                </tr>
+                <tr>
+                    <td>   </td>
+                    <td>   </td>
+                    <td>   </td>
+                    <td><h5>手續費</h5></td>
+                    <td class="text-right"><h5><strong>$6.94</strong></h5></td>
+                </tr>
+                <tr>
+                    <td>   </td>
+                    <td>   </td>
+                    <td>   </td>
+                    <td><h3>總價</h3></td>
+                    <td class="text-right"><h3><strong>$31.53</strong></h3></td>
+                </tr>
+                <tr>
+                    <td>   </td>
+                    <td>   </td>
+                    <td>   </td>
+                    <td>
+                      <router-link :to="{ path: '/productList' }"><button type="submit" class="btn"><span class="glyphicon glyphicon-shopping-cart"></span> 結帳</button></router-link>
+                    </td>
+                    <td>
+                      <router-link :to="{ path: '/productList' }"><button type="submit" class="btn">繼續購物<span class="glyphicon glyphicon-play"></span></button></router-link>
+                    </td>
+                </tr>
+            </tbody>
             </table>
         </div>
     </div>
