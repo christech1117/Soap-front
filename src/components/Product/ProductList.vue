@@ -31,79 +31,79 @@
               </router-link>
             </div>
             <div class="col-xs-4 col-sm-3 col-md-3">
-              <a href="" class="thumbnail">
+              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
                 <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/139/20161115173412550_bp.jpg" alt="">
-              </a>
+              </router-link>
             </div>
             <div class="col-xs-4 col-sm-3 col-md-3">
-              <a href="" class="thumbnail">
+              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
                 <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/97/20151005105111382_bp.jpg" alt="">
-              </a>
+              </router-link>
             </div>
             <div class="col-xs-4 col-sm-3 col-md-3">
-              <a href="" class="thumbnail">
+              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
                 <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/98/20151005105302386_bp.jpg" alt="">
-              </a>
+              </router-link>
             </div>
             <div class="col-xs-4 col-sm-3 col-md-3">
-              <a href="" class="thumbnail">
+              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
                 <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/173/20170309103428686_bp.jpg" alt="">
-              </a>
+              </router-link>
             </div>
             <div class="col-xs-4 col-sm-3 col-md-3">
-              <a href="" class="thumbnail">
+              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
                 <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/174/20170309104857690_bp.jpg" alt="">
-              </a>
+              </router-link>
             </div>
             <div class="col-xs-4 col-sm-3 col-md-3">
-              <a href="" class="thumbnail">
+              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
                 <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/174/20170309104857690_bp.jpg" alt="">
-              </a>
+              </router-link>
             </div>
             <div class="col-xs-4 col-sm-3 col-md-3">
-              <a href="" class="thumbnail">
+              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
                 <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/175/20170309110151694_bp.jpg" alt="">
-              </a>
+              </router-link>
             </div>
             <div class="col-xs-4 col-sm-3 col-md-3">
-              <a href="" class="thumbnail">
+              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
                 <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/176/20170309110826698_bp.jpg" alt="">
-              </a>
+              </router-link>
             </div>
             <div class="col-xs-4 col-sm-3 col-md-3">
-              <a href="" class="thumbnail">
+              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
                 <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/177/20170309111803702_bp.jpg" alt="">
-              </a>
+              </router-link>
             </div>
             <div class="col-xs-4 col-sm-3 col-md-3">
-              <a href="" class="thumbnail">
+              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
                 <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/178/20170309112127706_bp.jpg" alt="">
-              </a>
+              </router-link>
             </div>
             <div class="col-xs-4 col-sm-3 col-md-3">
-              <a href="" class="thumbnail">
+              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
                 <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/179/20170309112712710_bp.jpg" alt="">
-              </a>
+              </router-link>
             </div>
             <div class="col-xs-4 col-sm-3 col-md-3">
-              <a href="" class="thumbnail">
+              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
                 <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/180/20170309112909714_bp.jpg" alt="">
-              </a>
+              </router-link>
             </div>
             <div class="col-xs-4 col-sm-3 col-md-3">
-              <a href="" class="thumbnail">
+              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
                 <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/182/20170309113517722_bp.jpg" alt="">
-              </a>
+              </router-link>
             </div>
             <div class="col-xs-4 col-sm-3 col-md-3">
-              <a href="" class="thumbnail">
+              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
                 <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/188/20170309133850746_bp.jpg" alt="">
-              </a>
+              </router-link>
             </div>
             <div class="col-xs-4 col-sm-3 col-md-3">
-              <a href="" class="thumbnail">
+              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
                 <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/185/20170309114851734_bp.jpg" alt="">
-              </a>
+              </router-link>
             </div>
           </div>
           

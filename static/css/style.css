@@ -134,6 +134,10 @@ img {
   .breadcrumb a:active, .breadcrumb a:focus {
     color: #2E8B57; }
 
+.line {
+  margin: 20px auto;
+  border-bottom: #2E8B57 2px solid; }
+
 .navbar-default {
   background: #FAFAF5;
   border: 0;
@@ -182,10 +186,20 @@ img {
 .productList, .singleItem {
   -webkit-animation: fadeIn 1s ease both;
   animation: fadeIn 1s ease both; }
+  .productList i, .singleItem i {
+    margin-right: 5px; }
   .productList .col-md-12 p, .singleItem .col-md-12 p {
     padding: 0 100px; }
   .productList .col-md-12 img, .singleItem .col-md-12 img {
     margin-bottom: 50px; }
+  .productList .col-md-6 p span, .singleItem .col-md-6 p span {
+    font-size: 50px;
+    color: red; }
+  .productList .col-md-6 p .form, .singleItem .col-md-6 p .form {
+    margin-right: 30px; }
+  .productList .col-md-6 img, .singleItem .col-md-6 img {
+    width: 400px;
+    height: 400px; }
   .productList ul li, .singleItem ul li {
     width: 90%;
     height: 50px; }
