@@ -186,6 +186,9 @@ img {
 .productList, .singleItem {
   -webkit-animation: fadeIn 1s ease both;
   animation: fadeIn 1s ease both; }
+  .productList img, .singleItem img {
+    -webkit-animation: fadeInUp 1s ease both;
+    animation: fadeInUp 1s ease both; }
   .productList p, .singleItem p {
     font-size: 18px; }
   .productList i, .singleItem i {
@@ -223,7 +226,7 @@ img {
 
 .news-card {
   width: 100%;
-  height: 450px;
+  height: 500px;
   -webkit-animation: fadeIn 1s ease both;
   animation: fadeIn 1s ease both;
   margin-bottom: 40px;
@@ -250,8 +253,6 @@ img {
   -webkit-animation: fadeIn 1s ease both;
   animation: fadeIn 1s ease both;
   position: relative;
-  width: 100%;
-  height: 200px;
   margin-bottom: 20px;
   background: #FFF; }
   .product-card img {
@@ -285,7 +286,7 @@ img {
   transition: all .5s; }
 
 .slider_container {
-  height: 420px;
+  height: 350px;
   position: relative;
   border-color: #FFF; }
   .slider_container img {

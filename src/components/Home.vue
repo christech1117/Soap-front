@@ -79,55 +79,55 @@
         </div>
         
         <div class="col-xs-6 col-sm-4 col-md-2">
-          <div class="product-card wow fadeInUp">
-            <router-link class="" :to="{ path: '/productList' }">
+          <div class="product-card">
+            <router-link :to="{ path: '/productList' }">
               <div class="overlay"></div>
-              <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/184/20170309114104730_bp.jpg" alt="...">
+              <img class="thumbnail" src="https://www.teasoap.com.tw/downloads/product/10000/1000/184/20170309114104730_bp.jpg" alt="...">
               <h3>各種膚質</h3>
             </router-link>
           </div>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-2">
-          <div class="product-card wow fadeInUp">
+          <div class="product-card">
             <router-link class="" :to="{ path: '/productList' }">
               <div class="overlay"></div>
-              <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/174/20170309104857690_bp.jpg" alt="...">
+              <img class="thumbnail" src="https://www.teasoap.com.tw/downloads/product/10000/1000/174/20170309104857690_bp.jpg" alt="...">
               <h3>中油性肌膚</h3>
             </router-link>
           </div>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-2">
-          <div class="product-card wow fadeInUp">
+          <div class="product-card">
             <router-link class="" :to="{ path: '/productList' }">
               <div class="overlay"></div>
-              <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/182/20170309113517722_bp.jpg" alt="...">
+              <img class="thumbnail" src="https://www.teasoap.com.tw/downloads/product/10000/1000/182/20170309113517722_bp.jpg" alt="...">
               <h3>混合性肌膚</h3>
             </router-link>
           </div>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-2">
-          <div class="product-card wow fadeInUp">
+          <div class="product-card">
             <router-link class="" :to="{ path: '/productList' }">
               <div class="overlay"></div>
-              <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/183/20170309113708726_bp.jpg" alt="...">
+              <img class="thumbnail" src="https://www.teasoap.com.tw/downloads/product/10000/1000/183/20170309113708726_bp.jpg" alt="...">
               <h3>乾性肌膚</h3>
             </router-link>
           </div>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-2">
-          <div class="product-card wow fadeInUp">
+          <div class="product-card">
             <router-link class="" :to="{ path: '/productList' }">
               <div class="overlay"></div>
-              <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/187/20170309132421742_bp.jpg" alt="...">
+              <img class="thumbnail" src="https://www.teasoap.com.tw/downloads/product/10000/1000/187/20170309132421742_bp.jpg" alt="...">
               <h3>嬰兒肌膚</h3>
             </router-link>
           </div>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-2">
-          <div class="product-card wow fadeInUp">
+          <div class="product-card">
             <router-link class="" :to="{ path: '/productList' }">
               <div class="overlay"></div>
-              <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/180/20170309112909714_bp.jpg" alt="...">
+              <img class="thumbnail" src="https://www.teasoap.com.tw/downloads/product/10000/1000/180/20170309112909714_bp.jpg" alt="...">
               <h3>敏感性肌膚</h3>
             </router-link>
           </div>
