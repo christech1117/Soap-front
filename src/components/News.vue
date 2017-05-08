@@ -10,60 +10,60 @@
         <li class="active">最新消息</li>
       </ol>
       <div class="list-group">
-        <a href="#" class="list-group-item">
+        <router-link class="list-group-item" :to="{ path: '/news/singleNew' }">
           <ul>
             <li>2017年04月16日</li>
             <li>【最新消息】106年網購春節送貨時間調整 / 門市春節營業時間公告</li>
           </ul>
-        </a>
-        <a href="#" class="list-group-item">
+        </router-link>
+        <router-link class="list-group-item" :to="{ path: '/news/singleNew' }">
           <ul>
             <li>2017年04月16日</li>
             <li>【最新消息】106年網購春節送貨時間調整 / 門市春節營業時間公告</li>
           </ul>
-        </a>
-        <a href="#" class="list-group-item">
+        </router-link>
+        <router-link class="list-group-item" :to="{ path: '/news/singleNew' }">
           <ul>
             <li>2017年04月16日</li>
             <li>【最新消息】106年網購春節送貨時間調整 / 門市春節營業時間公告</li>
           </ul>
-          </a>
-        <a href="#" class="list-group-item">
+          </router-link>
+        <router-link class="list-group-item" :to="{ path: '/news/singleNew' }">
           <ul>
             <li>2017年04月16日</li>
             <li>【最新消息】106年網購春節送貨時間調整 / 門市春節營業時間公告</li>
           </ul>
-        </a>
-        <a href="#" class="list-group-item">
+        </router-link>
+        <router-link class="list-group-item" :to="{ path: '/news/singleNew' }">
           <ul>
             <li>2017年04月16日</li>
             <li>【最新消息】106年網購春節送貨時間調整 / 門市春節營業時間公告</li>
           </ul>
-        </a>
-        <a href="#" class="list-group-item">
+        </router-link>
+        <router-link class="list-group-item" :to="{ path: '/news/singleNew' }">
           <ul>
             <li>2017年04月16日</li>
             <li>【最新消息】106年網購春節送貨時間調整 / 門市春節營業時間公告</li>
           </ul>
-        </a>
-        <a href="#" class="list-group-item">
+        </router-link>
+        <router-link class="list-group-item" :to="{ path: '/news/singleNew' }">
           <ul>
             <li>2017年04月16日</li>
             <li>【最新消息】106年網購春節送貨時間調整 / 門市春節營業時間公告</li>
           </ul>
-        </a>
-        <a href="#" class="list-group-item">
+        </router-link>
+        <router-link class="list-group-item" :to="{ path: '/news/singleNew' }">
           <ul>
             <li>2017年04月16日</li>
             <li>【最新消息】106年網購春節送貨時間調整 / 門市春節營業時間公告</li>
           </ul>
-        </a>
-        <a href="#" class="list-group-item">
+        </router-link>
+        <router-link class="list-group-item" :to="{ path: '/news/singleNew' }">
           <ul>
             <li>2017年04月16日</li>
             <li>【最新消息】106年網購春節送貨時間調整 / 門市春節營業時間公告</li>
           </ul>
-        </a>
+        </router-link>
       </div>
     </div>
   </div>

@@ -7,6 +7,7 @@ import SingleItem from 'components/Product/SingleItem'
 import Contact from '../components/Contact'
 import About from '../components/About'
 import News from '../components/News'
+import SingleNew from '../components/SingleNew'
 import Login from 'components/Member/Login'
 import Forget from '../components/Member/Forget'
 import Register from 'components/Member/Register'
@@ -26,6 +27,7 @@ export default new Router({
     { path: '/contact', name: 'Contact', component: Contact },
     { path: '/about', name: 'About', component: About },
     { path: '/news', name: 'News', component: News },
+    { path: '/news/singleNew', name: 'SingleNew', component: SingleNew },
     { path: '/login', name: 'Login', component: Login },
     { path: '/forget', name: 'Forget', component: Forget },
     { path: '/register', name: 'Register', component: Register },

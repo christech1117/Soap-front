@@ -3,11 +3,12 @@
     <div class="banner-img" style="background-image: url('http://demo.mor-e.com.tw/demo/yatia/images/main/6b149f1fdc0c0f8e2cc4594a60ec0b03.jpg')"></div>
     <div class="container">
       <div class="section-header">
-        <h1><i class="fa fa-th-list" aria-hidden="true"></i>商品列表</h1>
+        <h1><i class="fa fa-th-list" aria-hidden="true"></i>商品資訊</h1>
       </div>
       <ol class="breadcrumb">
         <li><router-link :to="{ path: '/' }"><i class="fa fa-home" aria-hidden="true"></i></router-link></li>
         <li><router-link :to="{ path: '/productList' }">商品列表</router-link></li>
+        <li><router-link :to="{ path: '/productList' }">乾淨膚質</router-link></li>
         <li class="active">詳細資訊</li>
       </ol>
       <div class="row">

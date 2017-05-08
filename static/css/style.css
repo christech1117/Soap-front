@@ -160,7 +160,7 @@ img {
   background-size: cover;
   text-indent: -99999px; }
 
-.news {
+.news, .singleNew {
   -webkit-animation: fadeIn 1s ease both;
   animation: fadeIn 1s ease both; }
 
@@ -183,40 +183,43 @@ img {
 .list-group-item {
   border: 0; }
 
-.productList, .singleItem {
+.productList, .singleNew {
   -webkit-animation: fadeIn 1s ease both;
   animation: fadeIn 1s ease both; }
-  .productList i, .singleItem i {
+  .productList p, .singleNew p {
+    font-size: 18px;
+    margin: 50px auto; }
+  .productList i, .singleNew i {
     margin-right: 5px; }
-  .productList .col-md-12 p, .singleItem .col-md-12 p {
+  .productList .col-md-12 p, .singleNew .col-md-12 p {
     padding: 0 100px; }
-  .productList .col-md-12 img, .singleItem .col-md-12 img {
+  .productList .col-md-12 img, .singleNew .col-md-12 img {
     margin-bottom: 50px; }
-  .productList .col-md-6 p span, .singleItem .col-md-6 p span {
+  .productList .col-md-6 p span, .singleNew .col-md-6 p span {
     font-size: 50px;
     color: red; }
-  .productList .col-md-6 p .form, .singleItem .col-md-6 p .form {
+  .productList .col-md-6 p .form, .singleNew .col-md-6 p .form {
     margin-right: 30px; }
-  .productList .col-md-6 img, .singleItem .col-md-6 img {
+  .productList .col-md-6 img, .singleNew .col-md-6 img {
     width: 400px;
     height: 400px; }
-  .productList ul li, .singleItem ul li {
+  .productList ul li, .singleNew ul li {
     width: 90%;
     height: 50px; }
-    .productList ul li h3, .singleItem ul li h3 {
+    .productList ul li h3, .singleNew ul li h3 {
       color: #3CB371; }
-  .productList ul a, .singleItem ul a {
+  .productList ul a, .singleNew ul a {
     color: #666;
     font-size: 16px;
     line-height: 50px;
     border-bottom: 1px solid rgba(96, 76, 63, 0.5);
     display: block;
     width: 100%; }
-    .productList ul a:hover, .productList ul a:active, .productList ul a:focus, .singleItem ul a:hover, .singleItem ul a:active, .singleItem ul a:focus {
+    .productList ul a:hover, .productList ul a:active, .productList ul a:focus, .singleNew ul a:hover, .singleNew ul a:active, .singleNew ul a:focus {
       background: #e0e0e0;
       border-color: #3CB371;
       outline: 0; }
-  .productList ul .form-control, .singleItem ul .form-control {
+  .productList ul .form-control, .singleNew ul .form-control {
     margin: 0 10%; }
 
 .news-card {
