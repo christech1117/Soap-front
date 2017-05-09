@@ -151,6 +151,10 @@ img {
       background: #e0e0e0;
       border-color: #3CB371;
       outline: 0; }
+  .navbar-default .navbar-nav .router-link-active {
+    background: #e0e0e0;
+    border-color: #3CB371;
+    outline: 0; }
 
 .navbar-brand {
   width: 300px;
