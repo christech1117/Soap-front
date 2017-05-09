@@ -1,5 +1,5 @@
 <template>
-<div class="contact-us-container">
+<div class="container">
   <div class="row">
       <div class="col-sm-6 contact-form wow fadeInLeft">
         <form role="form" action="" method="post">
