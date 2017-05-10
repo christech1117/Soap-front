@@ -1,21 +1,10 @@
-<template>
-  <div class='container'>
-    <div class="banner-img" style="background-image: url('http://demo.mor-e.com.tw/demo/yatia/images/main/6b149f1fdc0c0f8e2cc4594a60ec0b03.jpg')"></div>
-      <div class="row">
-        <div class="col-sm-3">
-          <h3>產品展示</h3>
-        </div>
-        <div class="col-sm-9">
-          <div class="col-sm-4" v-for="room in rooms">
-            <room :room_data="room"></room>
-          </div>
-        </div>
-      </div>
-    
-    <!--<div class='col-sm-3' v-for='product in products'>
-      <room v-bind:product_data='product'></room>
-    </div>-->
-  </div>
+<template lang="pug">
+  .test
+    .container
+      .row
+        .col-sm-9
+          .col-sm-4.col_room(v-for="room in rooms")
+            room(:room_data="room", :hotel_discount="discount")
 </template>
 
 <script>
@@ -133,16 +122,12 @@ export default {
       ],
       discount: 0.9
     }
-  },
-  computed: {
-    final_price () {
-      return this.room_data.price * this.room_data.discount
-    }
   }
 }
 </script>
-<style scoped>
-.container {
+<style scoped lang="sass">
+.container 
   margin-top: 70px
-}
+.col_room 
+  padding: 20px
 </style>
