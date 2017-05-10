@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from '../components/Home'
 import Cart from 'components/Cart'
 import product from '../components/product'
+import singleItem from '../components/product/singleItem'
 import Contact from '../components/Contact'
 import About from '../components/About'
 import News from '../components/News'
@@ -24,6 +25,7 @@ export default new Router({
     { path: '/', name: 'Home', component: Home },
     { path: '/cart', name: 'Cart', component: Cart },
     { path: '/productList', name: 'product', component: product },
+    { path: '/productList/singleItem', name: 'singleItem', component: singleItem },
     { path: '/contact', name: 'Contact', component: Contact },
     { path: '/about', name: 'About', component: About },
     { path: '/news', name: 'News', component: News },

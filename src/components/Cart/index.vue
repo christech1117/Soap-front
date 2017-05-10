@@ -2,9 +2,6 @@
 <div class="cart">
   
   <div class="banner-img" style="background-image: url('http://demo.mor-e.com.tw/demo/yatia/images/main/c854332138261a24a47fb3342d600a9b.jpg')"></div>
-   
-  <addForm></addForm>
-  <Cart></cart>
     <div class="section-header">
       <h1><i class="fa fa-shopping-cart" aria-hidden="true"></i>購物車</h1>
     </div>

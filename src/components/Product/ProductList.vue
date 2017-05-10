@@ -1,6 +1,6 @@
 <template lang="pug">
   .product_container
-    router-link(:to="{ path: '/productList' }")
+    router-link(:to="{ path: '/productList/singleItem' }")
       .cover(:style="bg_css")
         h3 {{product_data.name}}
       .info.text-left
