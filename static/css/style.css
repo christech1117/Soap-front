@@ -67,7 +67,7 @@ a {
   transition: 0.5s 0s; }
 
 a:hover, a:focus {
-  color: #c2c1c1;
+  color: #555;
   text-decoration: none; }
 
 li {

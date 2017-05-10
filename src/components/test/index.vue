@@ -2,7 +2,14 @@
   .test
     .container
       .row
+        .col-sm-3
+          h1 飯店資料
+          hr
+          label 總折數
+          input.form-control(v-model="discount")
         .col-sm-9
+          h1 房間資訊
+          hr
           .col-sm-4.col_room(v-for="room in rooms")
             room(:room_data="room", :hotel_discount="discount")
 </template>
@@ -126,6 +133,8 @@ export default {
 }
 </script>
 <style scoped lang="sass">
+h1
+  font-size: 30px
 .container 
   margin-top: 70px
 .col_room 

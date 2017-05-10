@@ -1,125 +1,76 @@
-<template>
-  <div class="productList">
-    <div class="banner-img" style="background-image: url('http://demo.mor-e.com.tw/demo/yatia/images/main/6b149f1fdc0c0f8e2cc4594a60ec0b03.jpg')"></div>
-    <div class="container">
-      <div class="section-header">
-        <h1><i class="fa fa-th-list" aria-hidden="true"></i>商品列表</h1>
-      </div>
-      <ol class="breadcrumb">
-        <li><router-link :to="{ path: '/' }"><i class="fa fa-home" aria-hidden="true"></i></router-link></li>
-        <li class="active">商品列表</li>
-      </ol>
-      <div class="row">
-        <div class="col-md-3">
-          <ul class="">
-            <li><h3>產品展示</h3></li>
-            <li><router-link :to="{ path: '/productList' }">特價商品</router-link></li>
-            <li><router-link :to="{ path: '/productList' }">熱銷商品</router-link></li>
-            <li><router-link :to="{ path: '/productList' }">各種膚質</router-link></li>
-            <li><router-link :to="{ path: '/productList' }">中油性膚質</router-link></li>
-            <li><router-link :to="{ path: '/productList' }">混合性膚質</router-link></li>
-            <li><router-link :to="{ path: '/productList' }">乾性膚質</router-link></li>
-            <li><router-link :to="{ path: '/productList' }">嬰兒膚質</router-link></li>
-            <li><router-link :to="{ path: '/productList' }">敏感性膚質</router-link></li>
-          </ul>
-        </div>
-        <div class="col-md-9">
-          <div class="row">
-            <div class="col-xs-4 col-sm-3 col-md-3">
-              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
-                <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/138/20161115173455546_bp.jpg" alt="">
-              </router-link>
-            </div>
-            <div class="col-xs-4 col-sm-3 col-md-3">
-              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
-                <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/139/20161115173412550_bp.jpg" alt="">
-              </router-link>
-            </div>
-            <div class="col-xs-4 col-sm-3 col-md-3">
-              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
-                <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/97/20151005105111382_bp.jpg" alt="">
-              </router-link>
-            </div>
-            <div class="col-xs-4 col-sm-3 col-md-3">
-              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
-                <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/98/20151005105302386_bp.jpg" alt="">
-              </router-link>
-            </div>
-            <div class="col-xs-4 col-sm-3 col-md-3">
-              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
-                <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/173/20170309103428686_bp.jpg" alt="">
-              </router-link>
-            </div>
-            <div class="col-xs-4 col-sm-3 col-md-3">
-              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
-                <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/174/20170309104857690_bp.jpg" alt="">
-              </router-link>
-            </div>
-            <div class="col-xs-4 col-sm-3 col-md-3">
-              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
-                <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/174/20170309104857690_bp.jpg" alt="">
-              </router-link>
-            </div>
-            <div class="col-xs-4 col-sm-3 col-md-3">
-              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
-                <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/175/20170309110151694_bp.jpg" alt="">
-              </router-link>
-            </div>
-            <div class="col-xs-4 col-sm-3 col-md-3">
-              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
-                <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/176/20170309110826698_bp.jpg" alt="">
-              </router-link>
-            </div>
-            <div class="col-xs-4 col-sm-3 col-md-3">
-              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
-                <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/177/20170309111803702_bp.jpg" alt="">
-              </router-link>
-            </div>
-            <div class="col-xs-4 col-sm-3 col-md-3">
-              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
-                <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/178/20170309112127706_bp.jpg" alt="">
-              </router-link>
-            </div>
-            <div class="col-xs-4 col-sm-3 col-md-3">
-              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
-                <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/179/20170309112712710_bp.jpg" alt="">
-              </router-link>
-            </div>
-            <div class="col-xs-4 col-sm-3 col-md-3">
-              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
-                <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/180/20170309112909714_bp.jpg" alt="">
-              </router-link>
-            </div>
-            <div class="col-xs-4 col-sm-3 col-md-3">
-              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
-                <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/182/20170309113517722_bp.jpg" alt="">
-              </router-link>
-            </div>
-            <div class="col-xs-4 col-sm-3 col-md-3">
-              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
-                <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/188/20170309133850746_bp.jpg" alt="">
-              </router-link>
-            </div>
-            <div class="col-xs-4 col-sm-3 col-md-3">
-              <router-link class="thumbnail" :to="{ path: '/productList/singleItem' }">
-                <img src="https://www.teasoap.com.tw/downloads/product/10000/1000/185/20170309114851734_bp.jpg" alt="">
-              </router-link>
-            </div>
-          </div>
-          
-         
+<template lang="pug">
+  .product_container
+    router-link(:to="{ path: '/productList' }")
+      .cover(:style="bg_css")
+        h3 {{product_data.name}}
+      .info.text-left
+        h5 {{product_discount * 10}}折
+        h4 NT$
+          s {{product_data.price}}
+          span.final_price NT${{final_price}}
+    router-link(:to="{ path: '/productList/singleItem' }")
+      button.btn 加入購物車
+    router-link(:to="{ path: '/productList/singleItem' }")
+      button.btn.like 加入收藏
 
-        </div>
-      </div>
-    </div>
-  </div>
 </template>
 
 <script>
 export default {
+  props: ['product_data', 'product_discount'],
+  computed: {
+    final_price () {
+      return this.product_data.price * this.product_discount
+    },
+    bg_css () {
+      return {
+        'background-image': "url('" + this.product_data.cover + "')"
+      }
+    }
+  }
 }
 </script>
 
-<style scoped>
+<style scoped lang="sass">
+$red-color: #DB4343
 
+.product_container
+  animation: fadeInUp 1s ease both
+  box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.1)
+  border: solid 1px #eee
+  border-radius: 2px
+  &:hover
+    box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.2)
+    .cover
+      background-size: 110% auto
+
+  .cover
+    height: 150px
+    background-color: #eee
+    position: relative
+    background-size: 100% auto
+    background-position: center center
+    background-repeat: no-repeat
+    transition: 0.5s
+
+    h3 
+      position: absolute
+      bottom: 10px
+      font-size: 20px
+      padding: 5px 15px
+      background-color: #fff
+
+  .info
+    padding: 20px 20px
+    h5
+      font-size: 12px
+    .final_price
+      float: right
+      color: $red-color
+      &:before
+        content: "特價"
+    h4
+  .btn
+    border-left: 1px solid #eee
+    font-size: 13px
 </style>
