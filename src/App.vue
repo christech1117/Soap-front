@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <Header></Header>
+    <nav-header></nav-header>
     <router-view></router-view>
-    <Footer></Footer>
+    <nav-footer></nav-footer>
     <div class="fab-container">
       <a href="http://localhost:8080/cart"> <!--target="_blank"-->
         <div class="profile fab" tooltip="View My Cart"></div>
@@ -14,14 +14,14 @@
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Footer from './components/Footer.vue'
+import navHeader from './components/navHeader.vue'
+import navFooter from './components/navFooter.vue'
 
 export default {
   name: 'app',
   components: {
-    Header,
-    Footer
+    navHeader,
+    navFooter
   }
 }
 </script>

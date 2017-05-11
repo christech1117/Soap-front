@@ -1,5 +1,5 @@
 <template lang="pug">
-  .product_container
+  .productList_container
     router-link(:to="{ path: '/productList/singleItem' }")
       .cover(:style="bg_css")
         h3 {{product_data.name}}
@@ -8,16 +8,36 @@
         h4 NT$
           s {{product_data.price}}
           span.final_price NT${{final_price}}
-    router-link(:to="{ path: '/productList/singleItem' }")
-      button.btn 加入購物車
-    router-link(:to="{ path: '/productList/singleItem' }")
-      button.btn.like 加入收藏
-
+    button.btn(@click="add_cart") 加入購物車
+    button.btn.like(@click="get_product") 加入收藏
+    ul
+      li.list
 </template>
 
 <script>
 export default {
   props: ['product_data', 'product_discount'],
+  methods: {
+    add_cart (e) {
+      e.preventDefault()
+
+      var data = JSON.parse(localStorage.getItem('productData')) || []
+      var products = {
+        name: this.product_data.name
+        // price: this.product_data.price,
+        // cover: this.product_data.cover
+      }
+      data.push(products)
+      localStorage.setItem('productData', JSON.stringify(data))
+    },
+    get_product () {
+      var getData = localStorage.getItem('productData')
+      return alert(getData)
+    },
+    add_like () {
+      return alert('已加到收藏清單')
+    }
+  },
   computed: {
     final_price () {
       return this.product_data.price * this.product_discount
@@ -34,7 +54,7 @@ export default {
 <style scoped lang="sass">
 $red-color: #DB4343
 
-.product_container
+.productList_container
   animation: fadeInUp 1s ease both
   box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.1)
   border: solid 1px #eee
