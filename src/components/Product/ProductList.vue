@@ -26,9 +26,9 @@ export default {
       e.preventDefault()
       var data = JSON.parse(localStorage.getItem('productData')) || []
       var products = {
-        name: this.product_data.name
-        // price: this.product_data.price,
-        // cover: this.product_data.cover
+        name: this.product_data.name,
+        price: this.product_data.price,
+        cover: this.product_data.cover
       }
       data.push(products)
       localStorage.setItem('productData', JSON.stringify(data))
