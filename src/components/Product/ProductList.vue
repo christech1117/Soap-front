@@ -10,17 +10,20 @@
           span.final_price NT${{final_price}}
     button.btn(@click="add_cart") 加入購物車
     button.btn.like(@click="get_product") 加入收藏
-    ul
-      li.list
 </template>
 
 <script>
 export default {
   props: ['product_data', 'product_discount'],
+  data () {
+    return {
+      mess: '1'
+      // prodata: this.get_product()
+    }
+  },
   methods: {
     add_cart (e) {
       e.preventDefault()
-
       var data = JSON.parse(localStorage.getItem('productData')) || []
       var products = {
         name: this.product_data.name
@@ -30,7 +33,7 @@ export default {
       data.push(products)
       localStorage.setItem('productData', JSON.stringify(data))
     },
-    get_product () {
+    get_product (data) {
       var getData = localStorage.getItem('productData')
       return alert(getData)
     },
@@ -63,7 +66,6 @@ $red-color: #DB4343
     box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.2)
     .cover
       background-size: 110% auto
-
   .cover
     height: 150px
     background-color: #eee

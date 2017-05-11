@@ -37,11 +37,10 @@
 </template>
 <script>
 import productList from './productList'
-import singleItem from './singleItem'
 // import sectionHeader from '../sectionHeader'
 
 export default {
-  components: { productList, singleItem },
+  components: { productList },
   data () {
     return {
       products: [
