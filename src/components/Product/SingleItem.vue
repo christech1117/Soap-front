@@ -2,10 +2,24 @@
   .singleItem_container
     .banner-img(style="background-image: url('http://demo.mor-e.com.tw/demo/yatia/images/main/6b149f1fdc0c0f8e2cc4594a60ec0b03.jpg')")
     .container
-      .row
-        h1 測試購物車頁面
-        .col-sm-12(v-for="pro in list")
-          p {{pro}}
+      h1 測試購物車頁面
+      table.table
+        thead
+          tr
+            th #
+            th 商品圖片
+            th 商品名稱
+            th 數量
+            th 單價
+            th 小計
+          tr(v-for="(shopItem,index) in shopItems")
+            td {{index + 1}}
+            td {{shopItem.cover}}
+            td {{shopItem.name}}
+            td
+              input.form-control(v-model="num")
+            td {{shopItem.price}}
+            
       button.btn(@click="get_product") 顯示購物車
 </template>
 
@@ -13,7 +27,13 @@
 export default {
   data () {
     return {
-      list: this.get_product()
+      shopItems: this.get_product(),
+      num: '1'
+    }
+  },
+  watch: {
+    filter (num) {
+      this.get_product()
     }
   },
   methods: {

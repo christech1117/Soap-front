@@ -48,15 +48,13 @@ export default {
           id: 1,
           name: '生活調理乳',
           price: 950,
-          cover: 'https://www.teasoap.com.tw/downloads/product/10000/1000/174/20170309104857690_bp.jpg',
-          amount: 10
+          cover: 'https://www.teasoap.com.tw/downloads/product/10000/1000/174/20170309104857690_bp.jpg'
         },
         {
           id: 2,
           name: '生活保濕乳',
           price: 900,
-          cover: 'https://www.teasoap.com.tw/downloads/product/10000/1000/138/20161115173455546_bp.jpg',
-          amount: 10
+          cover: 'https://www.teasoap.com.tw/downloads/product/10000/1000/138/20161115173455546_bp.jpg'
         },
         {
           id: 3,

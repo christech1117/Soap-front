@@ -8,6 +8,7 @@
         h4 NT$
           s {{product_data.price}}
           span.final_price NT${{final_price}}
+          p {{pro}}
     button.btn(@click="add_cart") 加入購物車
     button.btn.like(@click="get_product") 加入收藏
 </template>
@@ -17,9 +18,11 @@ export default {
   props: ['product_data', 'product_discount'],
   data () {
     return {
-      mess: '1'
-      // prodata: this.get_product()
+
     }
+  },
+  watch: {
+
   },
   methods: {
     add_cart (e) {
